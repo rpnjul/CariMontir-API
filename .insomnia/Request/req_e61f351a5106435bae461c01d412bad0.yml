@@ -1,0 +1,30 @@
+_id: req_e61f351a5106435bae461c01d412bad0
+type: Request
+parentId: fld_a219cc11b45c43a69a77e8ddc6fa5253
+modified: 1633423046833
+created: 1633420098671
+url: https://api.carimontir.com/users/register
+name: Register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name" : "SATRIA APRILIAN",
+    	"email" : "satriaaprilian18@gmail.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7403d3c2534b45998978542f62f1990f
+authentication: {}
+metaSortKey: -1633420094388
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
