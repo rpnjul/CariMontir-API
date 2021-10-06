@@ -1,0 +1,33 @@
+_id: req_c4626117fe65424e9e5ab005f142f6de
+type: Request
+parentId: fld_a219cc11b45c43a69a77e8ddc6fa5253
+modified: 1633507330463
+created: 1633507074478
+url: https://api.carimontir.com/users/1/login
+name: Login First
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"mobile_no" : "089537152960"
+    }
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    id: pair_7403d3c2534b45998978542f62f1990f
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_ef7a3aef2ec546a493c63a1d12381f2c
+authentication: {}
+metaSortKey: -1633420094488
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
