@@ -1,7 +1,7 @@
 _id: req_34f2d85ca3f7471da74a5ec38925373f
 type: Request
 parentId: fld_a219cc11b45c43a69a77e8ddc6fa5253
-modified: 1633423891981
+modified: 1633491803770
 created: 1633423430067
 url: https://api.carimontir.com/users/login
 name: Login
@@ -16,9 +16,13 @@ body:
     }
 parameters: []
 headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    id: pair_7403d3c2534b45998978542f62f1990f
   - name: Content-Type
     value: application/json
-    id: pair_7403d3c2534b45998978542f62f1990f
+    description: ""
+    id: pair_ef7a3aef2ec546a493c63a1d12381f2c
 authentication: {}
 metaSortKey: -1633420094438
 isPrivate: false
