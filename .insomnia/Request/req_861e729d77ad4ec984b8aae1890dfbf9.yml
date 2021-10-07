@@ -1,9 +1,9 @@
 _id: req_861e729d77ad4ec984b8aae1890dfbf9
 type: Request
 parentId: fld_8a5f5cd545b24b388fb89d60d0e0f5f5
-modified: 1633590582212
+modified: 1633593836725
 created: 1633585050944
-url: https://api.carimontir.com/master/products
+url: https://api.carimontir.com/master/productsa
 name: GET Products
 description: |-
   GET PRODUCTS BY ID

@@ -1,0 +1,35 @@
+_id: req_836c350652a24408a49eec7c98ba0c06
+type: Request
+parentId: fld_5acf1c87e2094109a98df87bd4cb396d
+modified: 1633602868791
+created: 1633602103818
+url: https://api.carimontir.com/master/dl/varian
+name: GET Varian
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"year" : 2012,
+    	"merk_id" : 1,
+    	"model_id" : 1
+    }
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_f242c5287f584f8fbfb48fdd36041845
+  - name: Content-Type
+    value: application/json
+    id: pair_cb60a5e8737a4c5bbfd2e11aa7b9074e
+authentication: {}
+metaSortKey: -1633585624387.1875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
