@@ -1,0 +1,26 @@
+_id: req_f43850175e4340c497111d6c4176b1ea
+type: Request
+parentId: fld_8a5f5cd545b24b388fb89d60d0e0f5f5
+modified: 1633589898623
+created: 1633589722875
+url: https://api.carimontir.com/master/service-type
+name: GET Services Type
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_998a1624cd6b4612b19924558201016f
+    disabled: false
+authentication: {}
+metaSortKey: -1633500478274
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
