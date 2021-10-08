@@ -1,11 +1,11 @@
 _id: req_dcc7c955e7e9495789a177ad903e76ce
 type: Request
 parentId: fld_c70a976c6c5740868552bee00bb78bfd
-modified: 1633514419885
+modified: 1633685394767
 created: 1633488396404
 url: https://api.carimontir.com/home/products
 name: GET Recommend Product
-description: ""
+description: '    required header "rapdig-signature"'
 method: GET
 body: {}
 parameters: []

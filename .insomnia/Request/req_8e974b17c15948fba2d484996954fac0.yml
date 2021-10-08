@@ -1,11 +1,11 @@
 _id: req_8e974b17c15948fba2d484996954fac0
 type: Request
 parentId: fld_5acf1c87e2094109a98df87bd4cb396d
-modified: 1633600830873
+modified: 1633685587757
 created: 1633598532648
 url: https://api.carimontir.com/master/dl/year
-name: GET Year
-description: ""
+name: GET Car Year
+description: '    required header "rapdig-signature" and "Content-Type : application/json"'
 method: GET
 body:
   mimeType: application/json

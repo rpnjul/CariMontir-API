@@ -1,20 +1,15 @@
 _id: req_31fca354e3714655a55e1d4493777a59
 type: Request
 parentId: fld_38ebbcc6029f414188108ea24bb4d290
-modified: 1633673566637
+modified: 1633687289286
 created: 1633427574467
 url: https://api.carimontir.com/products
 name: GET Products
-description: ""
+description: '    required header "rapdig-signature"'
 method: GET
-body:
-  mimeType: application/json
-  text: ""
+body: {}
 parameters: []
 headers:
-  - name: Content-Type
-    value: application/json
-    id: pair_54ed897c4a174a3192bcd6b610206360
   - name: rapdig-signature
     value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
     description: ""
@@ -22,7 +17,7 @@ headers:
     disabled: false
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzM0ODc4NzQsIm5iZiI6MTYzMzQ4Nzg3NCwianRpIjoiWDN3ZnU5eHFha0dod0ZHNyIsInN1YiI6MTc0LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.uN48naHPkFJAueKn0UZPO2k0_DUqsfmPFm6ntnOfMHo
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzM2ODcxODMsIm5iZiI6MTYzMzY4NzE4MywianRpIjoic2dnbGd5UldPOWRKV2o4eCIsInN1YiI6MTkwLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.xToV0Sz3OkNtR683xBqLdyL_AkOiDzzFveGdQ4JzpDw
 metaSortKey: -1633427574535
 isPrivate: false
 settingStoreCookies: true

@@ -1,11 +1,13 @@
 _id: req_861e729d77ad4ec984b8aae1890dfbf9
 type: Request
 parentId: fld_8a5f5cd545b24b388fb89d60d0e0f5f5
-modified: 1633674014569
+modified: 1633685363069
 created: 1633585050944
 url: https://api.carimontir.com/master/products
 name: GET Products
-description: |-
+description: |+2
+      required header "rapdig-signature"
+
   GET PRODUCTS BY ID
 
   [-] "product_id" is required 
@@ -18,6 +20,8 @@ description: |-
   GET ALL PRODUCTS
 
   [-] Without Body JSON
+
+   
 method: GET
 body:
   mimeType: application/json

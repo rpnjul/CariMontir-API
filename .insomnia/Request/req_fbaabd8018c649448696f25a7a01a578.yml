@@ -1,11 +1,11 @@
 _id: req_fbaabd8018c649448696f25a7a01a578
 type: Request
 parentId: fld_5acf1c87e2094109a98df87bd4cb396d
-modified: 1633599484802
+modified: 1633685582877
 created: 1633595220312
 url: https://api.carimontir.com/master/dl/model
-name: GET Model
-description: ""
+name: GET Car Model
+description: '    required header "rapdig-signature" and "Content-Type : application/json"'
 method: GET
 body:
   mimeType: application/json

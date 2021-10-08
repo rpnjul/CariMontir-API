@@ -1,11 +1,11 @@
 _id: req_836c350652a24408a49eec7c98ba0c06
 type: Request
 parentId: fld_5acf1c87e2094109a98df87bd4cb396d
-modified: 1633602868791
+modified: 1633685591365
 created: 1633602103818
 url: https://api.carimontir.com/master/dl/varian
-name: GET Varian
-description: ""
+name: GET Car Varian
+description: '    required header "rapdig-signature" and "Content-Type : application/json"'
 method: GET
 body:
   mimeType: application/json

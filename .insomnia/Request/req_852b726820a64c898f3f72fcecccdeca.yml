@@ -1,11 +1,11 @@
 _id: req_852b726820a64c898f3f72fcecccdeca
 type: Request
 parentId: fld_5acf1c87e2094109a98df87bd4cb396d
-modified: 1633599420501
+modified: 1633685574462
 created: 1633594226035
 url: https://api.carimontir.com/master/dl/category
-name: GET Category
-description: ""
+name: GET Car Category
+description: '    required header "rapdig-signature" and "Content-Type : application/json"'
 method: GET
 body:
   mimeType: application/json
