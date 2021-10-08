@@ -1,0 +1,26 @@
+_id: req_dcc7c955e7e9495789a177ad903e76ce
+type: Request
+parentId: fld_c70a976c6c5740868552bee00bb78bfd
+modified: 1633514419885
+created: 1633488396404
+url: https://api.carimontir.com/home/products
+name: GET Recommend Product
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_14d787dd802d4c5e986a2a038b1e6acb
+    disabled: false
+authentication: {}
+metaSortKey: -1633488396464
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

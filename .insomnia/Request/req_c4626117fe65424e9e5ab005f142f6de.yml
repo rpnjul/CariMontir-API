@@ -1,17 +1,20 @@
 _id: req_c4626117fe65424e9e5ab005f142f6de
 type: Request
 parentId: fld_a219cc11b45c43a69a77e8ddc6fa5253
-modified: 1633596822890
+modified: 1633679644908
 created: 1633507074478
 url: https://api.carimontir.com/users/1/login
 name: Login First
-description: "    mobile_no is phone_number"
+description: |-2
+        'mobile_no'     => 'required|min:10|max:16',
+        'country_code'  => 'required',
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"mobile_no" : "0895371529602"
+    	"mobile_no" : "0895371529602",
+    	"country_code" : "62"
     }
 parameters: []
 headers:
