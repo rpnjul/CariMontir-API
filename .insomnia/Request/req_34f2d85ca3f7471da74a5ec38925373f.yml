@@ -1,7 +1,7 @@
 _id: req_34f2d85ca3f7471da74a5ec38925373f
 type: Request
 parentId: fld_a219cc11b45c43a69a77e8ddc6fa5253
-modified: 1633685452803
+modified: 1633943715312
 created: 1633423430067
 url: https://api.carimontir.com/users/login
 name: Login
@@ -10,9 +10,9 @@ description: |-2
       
    Request
 
-      'mobile_no'     => 'required|numeric',
-      'otp'           => 'required|numeric',
-      'country_code'  => 'required|numeric'
+        'mobile_no'     => 'required|max:13|min:10|bail',
+        'otp'           => 'required|numeric|bail',
+        'country_code'  => 'required|numeric|bail'
 method: POST
 body:
   mimeType: application/json

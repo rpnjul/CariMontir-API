@@ -1,7 +1,7 @@
 _id: req_e61f351a5106435bae461c01d412bad0
 type: Request
 parentId: fld_a219cc11b45c43a69a77e8ddc6fa5253
-modified: 1633685467969
+modified: 1633943800393
 created: 1633420098671
 url: https://api.carimontir.com/users/register
 name: Register
@@ -12,7 +12,7 @@ description: |-2
 
       'name'      => 'required|max:50',
       'email'     => 'required|string|email|max:255|unique:users|email:rfc,dns',
-      'mobile_no' => 'required|unique:users,mobileno|max:16|min:10',
+      'mobile_no' => 'required|unique:users,mobileno|max:13|min:10',
       'is_agree'  => 'required|boolean',
 method: POST
 body:
@@ -20,8 +20,8 @@ body:
   text: |-
     {
     	"name" : "SATRIA",
-    	"email" : "satriaaprilian228@gmail.com",
-    	"mobile_no" : "0875812371289",
+    	"email" : "satriaaprilian18@gmail.com",
+    	"mobile_no" : "0895371629021",
     	"is_agree" : true
     }
 parameters: []

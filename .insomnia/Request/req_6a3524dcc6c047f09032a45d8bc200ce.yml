@@ -1,0 +1,27 @@
+_id: req_6a3524dcc6c047f09032a45d8bc200ce
+type: Request
+parentId: fld_a219cc11b45c43a69a77e8ddc6fa5253
+modified: 1633952594117
+created: 1633949053300
+url: https://api.carimontir.com/users/logout
+name: Logout
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_eda7de08ccf04aa28b7f9eeb40213ffb
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzM5NTI1ODUsIm5iZiI6MTYzMzk1MjU4NSwianRpIjoiWFY0UndZRzhOUUtBVHRuNyIsInN1YiI6MTkzLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.dJ_ezj5K1UpbDrI_5K3AdpQi1H7dHtFntL22sWk6tZM
+metaSortKey: -1633420094338
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

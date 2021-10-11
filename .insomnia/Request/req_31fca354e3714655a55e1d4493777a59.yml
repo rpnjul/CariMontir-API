@@ -1,7 +1,7 @@
 _id: req_31fca354e3714655a55e1d4493777a59
 type: Request
 parentId: fld_38ebbcc6029f414188108ea24bb4d290
-modified: 1633687289286
+modified: 1633949383309
 created: 1633427574467
 url: https://api.carimontir.com/products
 name: GET Products
@@ -17,7 +17,7 @@ headers:
     disabled: false
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzM2ODcxODMsIm5iZiI6MTYzMzY4NzE4MywianRpIjoic2dnbGd5UldPOWRKV2o4eCIsInN1YiI6MTkwLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.xToV0Sz3OkNtR683xBqLdyL_AkOiDzzFveGdQ4JzpDw
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzM5NDM5NTEsIm5iZiI6MTYzMzk0Mzk1MSwianRpIjoia1l2UERqcnpCWjVxOENFQyIsInN1YiI6MTkzLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.T7eMOIlEhiOHa6tjN2YevqemSnegFNEu6EthkL2SdEQ
 metaSortKey: -1633427574535
 isPrivate: false
 settingStoreCookies: true
