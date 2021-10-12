@@ -1,9 +1,9 @@
 _id: req_07c21a42e4a545349ed71de9746dd7ee
 type: Request
 parentId: fld_8a5f5cd545b24b388fb89d60d0e0f5f5
-modified: 1634013588728
+modified: 1634013775170
 created: 1634013540462
-url: https://api.carimontir.com/assets/kebijakan_privasi.pdf
+url: https://api.carimontir.com/kebijakan_privasi.pdf
 name: Kebijakan Privasi
 description: ""
 method: GET
