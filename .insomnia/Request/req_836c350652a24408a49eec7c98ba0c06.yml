@@ -1,7 +1,7 @@
 _id: req_836c350652a24408a49eec7c98ba0c06
 type: Request
 parentId: fld_5acf1c87e2094109a98df87bd4cb396d
-modified: 1633685591365
+modified: 1634006203118
 created: 1633602103818
 url: https://api.carimontir.com/master/dl/varian
 name: GET Car Varian
@@ -11,9 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"year" : 2012,
+    	"year" : 2013,
     	"merk_id" : 1,
-    	"model_id" : 1
+    	"model_id" : 113
     }
 parameters: []
 headers:

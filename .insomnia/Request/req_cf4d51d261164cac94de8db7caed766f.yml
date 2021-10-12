@@ -1,0 +1,27 @@
+_id: req_cf4d51d261164cac94de8db7caed766f
+type: Request
+parentId: fld_a219cc11b45c43a69a77e8ddc6fa5253
+modified: 1634011669911
+created: 1634011509684
+url: https://api.carimontir.com/me
+name: GET me
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_256841e85db7417999a83d7a132dfc87
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzQwMTE2NjIsIm5iZiI6MTYzNDAxMTY2MiwianRpIjoiNEtacE03c0ROSVZCa3FrQiIsInN1YiI6MTk4LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.RtqQEY8h7Hp4peupRNkVBRrCF2bGYFF2DX8XbL00WZI
+metaSortKey: -1634011509684
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

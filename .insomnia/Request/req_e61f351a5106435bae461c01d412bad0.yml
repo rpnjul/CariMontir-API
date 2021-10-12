@@ -1,7 +1,7 @@
 _id: req_e61f351a5106435bae461c01d412bad0
 type: Request
 parentId: fld_a219cc11b45c43a69a77e8ddc6fa5253
-modified: 1633943800393
+modified: 1634011642410
 created: 1633420098671
 url: https://api.carimontir.com/users/register
 name: Register
@@ -19,9 +19,9 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name" : "SATRIA",
+    	"name" : "Satria Aprilian Testing",
     	"email" : "satriaaprilian18@gmail.com",
-    	"mobile_no" : "0895371629021",
+    	"mobile_no" : "0895371529602",
     	"is_agree" : true
     }
 parameters: []
