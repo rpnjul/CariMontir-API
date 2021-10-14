@@ -1,22 +1,81 @@
 _id: req_2d271d2f10b2441cb60e0adea538cff3
 type: Request
 parentId: fld_e60699f6b0c849168eba68b5975618a8
-modified: 1634031396028
+modified: 1634202110976
 created: 1634021692932
 url: https://api.carimontir.com/carts
 name: GET/POST Cart
-description: ""
+description: >2
+      required header "rapdig-signature"
+
+      
+
+      
+
+  -- GET Documentation (required fields)
+
+      null
+
+      
+
+
+      
+  -- POST Documentation (required fields)
+
+
+      required header "Content-Type: application/json"
+
+
+  JSON Body :
+
+      {
+          'product_id'    => 'required|numeric|exists:products,id|bail',
+          'qty'           => 'required|numeric|min:1|bail',
+          'type'          => 'required|in:product,service',
+          'option_id'     => 'required_if_type=product|nullable|exists:product_options,id|bail',
+      }
+
+  Error Message 
+
+      [
+          'product_id.required'   => 'Kode Produk Dibutuhkan',
+          'product_id.numeric'    => 'Format Kode Produk Angka',
+          'product_id.exists'     => 'Produk Tidak Ditemukan',
+          'qty.required'          => 'Kuantitas Wajib Di isi',
+          'qty.numeric'           => 'Format Kuantitas Hanya Angka',
+          'qty.min'               => 'Kuantitas Minimal 1',
+          'type.required'         => 'Tipe keranjang dibutuhkan',
+          'type.in'               => 'Tipe hanya produk atau Jasa',
+          'option_id.required_if' => 'Wajib Memilih pilihan produk',
+          'option_id.exists'      => 'Format Option tidak ditemukan'
+      ]
+
+      
+
+      
+  IF 'type' == 'products' , then 'option_id' is required
 method: GET
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"product_id" : 25,
+    	"qty" : 1,
+    	"option_id" : 8,
+    	"type" : "product"
+    }
 parameters: []
 headers:
   - name: rapdig-signature
     value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
     description: ""
     id: pair_527ddb37e665467491afb2b0eeef290b
+  - name: Content-Type
+    value: application/json
+    id: pair_4bc0d3a83a94477391cae421e7ab7471
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzQwMjUyMTMsIm5iZiI6MTYzNDAyNTIxMywianRpIjoic2FTNUxuaTdKT1Z5S2JySyIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.9MgQ56Xw0PU69A361baZXCYmnDaYJ7wpl4MNlipG0zc
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzQxODA1OTMsIm5iZiI6MTYzNDE4MDU5MywianRpIjoiRXdTRXhJZ3FCMGJLSk4xdyIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.FW4X25evf1WkS-lBiO1gDb3axeAQUpnQ_-Q90_cNQ1c
 metaSortKey: -1634021692980
 isPrivate: false
 settingStoreCookies: true
