@@ -1,7 +1,7 @@
 _id: req_2d271d2f10b2441cb60e0adea538cff3
 type: Request
 parentId: fld_e60699f6b0c849168eba68b5975618a8
-modified: 1634202110976
+modified: 1634549585939
 created: 1634021692932
 url: https://api.carimontir.com/carts
 name: GET/POST Cart
@@ -54,14 +54,14 @@ description: >2
 
       
   IF 'type' == 'products' , then 'option_id' is required
-method: GET
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
     	"product_id" : 25,
     	"qty" : 1,
-    	"option_id" : 8,
+    	"option_id" : null,
     	"type" : "product"
     }
 parameters: []
@@ -70,12 +70,13 @@ headers:
     value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
     description: ""
     id: pair_527ddb37e665467491afb2b0eeef290b
+    disabled: false
   - name: Content-Type
     value: application/json
     id: pair_4bc0d3a83a94477391cae421e7ab7471
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzQxODA1OTMsIm5iZiI6MTYzNDE4MDU5MywianRpIjoiRXdTRXhJZ3FCMGJLSk4xdyIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.FW4X25evf1WkS-lBiO1gDb3axeAQUpnQ_-Q90_cNQ1c
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzQ1MjQ1NzcsIm5iZiI6MTYzNDUyNDU3NywianRpIjoibnJCNlMwcUNhNVJ1cktmdiIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.3-s6obRbnso_ekb4J1n25GMzeXtNHFxhDC8-fQ8TdbU
 metaSortKey: -1634021692980
 isPrivate: false
 settingStoreCookies: true

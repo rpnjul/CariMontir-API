@@ -1,0 +1,33 @@
+_id: req_e34462364bb444cab0a7adb47e677a6d
+type: Request
+parentId: fld_b93df8d9bf6d43e5ae44a28567e27b54
+modified: 1634553864820
+created: 1634539658644
+url: https://api.carimontir.com/master/address/state
+name: GET Data Province
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"country_id" : 102
+    }
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_e9a37d0387dc4cf9a31fe84ff977ad84
+  - name: Content-Type
+    value: application/json
+    id: pair_c141f7d2c4394a9d825996f410b384c1
+authentication: {}
+metaSortKey: -1633505764053.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
