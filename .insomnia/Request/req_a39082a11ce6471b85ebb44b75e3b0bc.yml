@@ -1,11 +1,24 @@
 _id: req_a39082a11ce6471b85ebb44b75e3b0bc
 type: Request
 parentId: fld_b93df8d9bf6d43e5ae44a28567e27b54
-modified: 1634553147008
+modified: 1634554208417
 created: 1634553127498
 url: https://api.carimontir.com/master/address/city
 name: GET Data City
-description: ""
+description: |-2
+      required header "rapdig-signature"
+      
+      
+  BODY RULE
+
+      'state_id' => 'numeric|exists:state,id'
+      
+  Message Rule
+
+      [
+          'state_id.numeric'  => 'Kode wilayah harus bersifat angka',
+          'state_id.exists'   => 'Kode wilayah tidak terdaftar'
+      ]
 method: GET
 body:
   mimeType: application/json

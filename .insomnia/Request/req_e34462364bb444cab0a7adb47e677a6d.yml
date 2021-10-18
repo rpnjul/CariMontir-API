@@ -1,11 +1,24 @@
 _id: req_e34462364bb444cab0a7adb47e677a6d
 type: Request
 parentId: fld_b93df8d9bf6d43e5ae44a28567e27b54
-modified: 1634553864820
+modified: 1634554165759
 created: 1634539658644
 url: https://api.carimontir.com/master/address/state
 name: GET Data Province
-description: ""
+description: |-2
+      required header "rapdig-signature"
+      
+      
+  BODY RULE
+
+      'country_id' => 'numeric|exists:country_table,id'
+      
+  Message Rule
+
+      [
+          'country_id.numeric'  => 'Kode wilayah harus bersifat angka',
+          'country_id.exists'   => 'Kode wilayah tidak terdaftar'
+      ]
 method: GET
 body:
   mimeType: application/json

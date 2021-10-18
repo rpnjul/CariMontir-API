@@ -1,11 +1,11 @@
 _id: req_afd807bdef4349e39ab7468c1c95f058
 type: Request
 parentId: fld_b93df8d9bf6d43e5ae44a28567e27b54
-modified: 1634553546710
+modified: 1634554098320
 created: 1634553531986
 url: https://api.carimontir.com/master/address/country
 name: GET Data Country
-description: ""
+description: '    required header "rapdig-signature"'
 method: GET
 body:
   mimeType: application/json
