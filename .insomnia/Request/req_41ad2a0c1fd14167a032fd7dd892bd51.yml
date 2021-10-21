@@ -1,0 +1,60 @@
+_id: req_41ad2a0c1fd14167a032fd7dd892bd51
+type: Request
+parentId: fld_e60699f6b0c849168eba68b5975618a8
+modified: 1634816814885
+created: 1634816434035
+url: https://api.carimontir.com/carts/delete
+name: POST Delete By ID Cart
+description: |-2
+      required header "rapdig-signature"
+
+
+      
+  -- POST Documentation (required fields)
+
+
+      required header "Content-Type: application/json"
+
+  JSON Body :
+
+      {
+        'cart_id'           => 'required|numeric|bail',
+        'type'              => 'required|in:product,service',
+      }
+      
+  Error Message :
+
+      [
+          'cart_id.required'      => 'Kode keranjang wajib',
+          'cart_id.numeric'       => 'Kode keranjang bersifat angka',
+          'type.required'         => 'Tipe masukan wajib',
+          'type.in'               => 'Tipe masukan salah',
+      ]
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"cart_id" : 112,
+    	"type"		: "product" 
+    }
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_ecf6f9712b8e44e5abd4bcaad4738d8f
+  - name: Content-Type
+    value: application/json
+    id: pair_53391c48fd074dce99810377aaaf7086
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzQ4MDc0NDcsIm5iZiI6MTYzNDgwNzQ0NywianRpIjoiMlpaV1BWUWVCTXY4RTJvUCIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.6lHZukV_EyWapU7dCIFrSQy_vohLuWyhbd65XK--cjQ
+metaSortKey: -1634021684299.2969
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

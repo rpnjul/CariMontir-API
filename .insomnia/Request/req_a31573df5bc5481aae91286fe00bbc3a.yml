@@ -1,0 +1,56 @@
+_id: req_a31573df5bc5481aae91286fe00bbc3a
+type: Request
+parentId: fld_e60699f6b0c849168eba68b5975618a8
+modified: 1634817077676
+created: 1634816196793
+url: https://api.carimontir.com/carts/delete/provider
+name: POST Delete By Provider Cart
+description: |-2
+      required header "rapdig-signature"
+
+
+      
+  -- POST Documentation (required fields)
+
+
+      required header "Content-Type: application/json"
+
+  JSON Body :
+
+      {
+        'provider_id'       => 'required|numeric|bail',
+      }
+      
+  Error Message :
+
+      [
+          'provider_id.required'  => 'Kode provider wajib',
+          'provider_id.numeric'   => 'Kode provider bersifat angka',
+      ]
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"provider_id" : 82
+    }
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_ecf6f9712b8e44e5abd4bcaad4738d8f
+  - name: Content-Type
+    value: application/json
+    id: pair_53391c48fd074dce99810377aaaf7086
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzQ4MDc0NDcsIm5iZiI6MTYzNDgwNzQ0NywianRpIjoiMlpaV1BWUWVCTXY4RTJvUCIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.6lHZukV_EyWapU7dCIFrSQy_vohLuWyhbd65XK--cjQ
+metaSortKey: -1634021683921.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

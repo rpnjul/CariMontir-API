@@ -1,7 +1,7 @@
 _id: req_861e729d77ad4ec984b8aae1890dfbf9
 type: Request
 parentId: fld_8a5f5cd545b24b388fb89d60d0e0f5f5
-modified: 1634551502302
+modified: 1634806118838
 created: 1633585050944
 url: https://api.carimontir.com/master/products
 name: GET Products
@@ -23,9 +23,7 @@ description: |+2
 
    
 method: GET
-body:
-  mimeType: application/json
-  text: ""
+body: {}
 parameters: []
 headers:
   - name: rapdig-signature
@@ -33,9 +31,6 @@ headers:
     description: ""
     id: pair_998a1624cd6b4612b19924558201016f
     disabled: false
-  - name: Content-Type
-    value: application/json
-    id: pair_0bd949ad2c024aa8aefb9fe2dfc46a81
 authentication: {}
 metaSortKey: -1633585050944
 isPrivate: false

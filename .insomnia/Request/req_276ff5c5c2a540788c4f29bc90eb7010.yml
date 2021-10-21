@@ -1,0 +1,75 @@
+_id: req_276ff5c5c2a540788c4f29bc90eb7010
+type: Request
+parentId: fld_e60699f6b0c849168eba68b5975618a8
+modified: 1634816509037
+created: 1634805897996
+url: https://api.carimontir.com/carts/edit
+name: POST Cart Edit
+description: |-2
+      required header "rapdig-signature"
+
+
+      
+  -- POST Documentation (required fields)
+
+
+      required header "Content-Type: application/json"
+
+
+  JSON Body :
+
+      {
+          'cart_id'       => 'required|number|bail',
+          'type'          => 'required|in:plus,min,custom',
+          'is'            => 'required|in:product,service',
+          'qty'           => 'number'
+      }
+
+  Error Message 
+
+      [
+          'cart_id.required'      => 'Kode keranjang wajib',
+          'cart_id.number'        => 'Kode keranjang bersifat angka',
+          'type.required'         => 'Tipe masukan wajib',
+          'type.in'               => 'Tipe masukan salah',
+          'qty.number'            => 'Kuantitas bersifat angka',
+      ]
+
+  Custom Validation : 
+
+      IF type=='custom' then 'qty' is required
+
+  Error Message Custom Validation : 
+
+      'Kuantitas wajib diisi'
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"cart_id" : 111,
+    	"type" 		: "custom",
+    	"is" 			: "product",
+    	"qty" 		: 0
+    }
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_527ddb37e665467491afb2b0eeef290b
+    disabled: false
+  - name: Content-Type
+    value: application/json
+    id: pair_4bc0d3a83a94477391cae421e7ab7471
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzQ4MDc0NDcsIm5iZiI6MTYzNDgwNzQ0NywianRpIjoiMlpaV1BWUWVCTXY4RTJvUCIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.6lHZukV_EyWapU7dCIFrSQy_vohLuWyhbd65XK--cjQ
+metaSortKey: -1634021684676.7188
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

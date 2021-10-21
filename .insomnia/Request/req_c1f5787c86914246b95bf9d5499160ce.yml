@@ -1,0 +1,31 @@
+_id: req_c1f5787c86914246b95bf9d5499160ce
+type: Request
+parentId: fld_e60699f6b0c849168eba68b5975618a8
+modified: 1634816519982
+created: 1634803093567
+url: https://api.carimontir.com/carts/total
+name: GET Cart Total
+description: |+2
+      required header "rapdig-signature"
+
+      
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_527ddb37e665467491afb2b0eeef290b
+    disabled: false
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzQ4MDQ2MDYsIm5iZiI6MTYzNDgwNDYwNiwianRpIjoiMTk2WEg4OWdFdlM4ZzJSYSIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.hFqnnrbc8UjtY8PnMzt9z0wyi2b1951PT1L5QjNSLeA
+metaSortKey: -1634021685431.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

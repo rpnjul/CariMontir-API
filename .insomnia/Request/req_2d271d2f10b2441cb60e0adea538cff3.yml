@@ -1,14 +1,16 @@
 _id: req_2d271d2f10b2441cb60e0adea538cff3
 type: Request
 parentId: fld_e60699f6b0c849168eba68b5975618a8
-modified: 1634549585939
+modified: 1634817059646
 created: 1634021692932
 url: https://api.carimontir.com/carts
 name: GET/POST Cart
 description: >2
       required header "rapdig-signature"
 
+
       
+
 
       
 
@@ -16,7 +18,9 @@ description: >2
 
       null
 
+
       
+
 
 
       
@@ -50,17 +54,19 @@ description: >2
           'option_id.exists'      => 'Format Option tidak ditemukan'
       ]
 
+
       
+
 
       
   IF 'type' == 'products' , then 'option_id' is required
-method: POST
+method: GET
 body:
   mimeType: application/json
   text: |-
     {
-    	"product_id" : 25,
-    	"qty" : 1,
+    	"product_id" : 82,
+    	"qty" : 4,
     	"option_id" : null,
     	"type" : "product"
     }
@@ -76,7 +82,7 @@ headers:
     id: pair_4bc0d3a83a94477391cae421e7ab7471
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzQ1MjQ1NzcsIm5iZiI6MTYzNDUyNDU3NywianRpIjoibnJCNlMwcUNhNVJ1cktmdiIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.3-s6obRbnso_ekb4J1n25GMzeXtNHFxhDC8-fQ8TdbU
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzQ4MDc0NDcsIm5iZiI6MTYzNDgwNzQ0NywianRpIjoiMlpaV1BWUWVCTXY4RTJvUCIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.6lHZukV_EyWapU7dCIFrSQy_vohLuWyhbd65XK--cjQ
 metaSortKey: -1634021692980
 isPrivate: false
 settingStoreCookies: true

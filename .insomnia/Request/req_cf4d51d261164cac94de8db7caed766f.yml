@@ -1,7 +1,7 @@
 _id: req_cf4d51d261164cac94de8db7caed766f
 type: Request
 parentId: fld_a219cc11b45c43a69a77e8ddc6fa5253
-modified: 1634540978345
+modified: 1634802432128
 created: 1634011509684
 url: https://api.carimontir.com/me
 name: GET me
@@ -16,7 +16,7 @@ headers:
     id: pair_256841e85db7417999a83d7a132dfc87
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzQ1MjQ1NzcsIm5iZiI6MTYzNDUyNDU3NywianRpIjoibnJCNlMwcUNhNVJ1cktmdiIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.3-s6obRbnso_ekb4J1n25GMzeXtNHFxhDC8-fQ8TdbU
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzQ4MDE3MjEsIm5iZiI6MTYzNDgwMTcyMSwianRpIjoibThrbmt4ZlFBa2lYWlFyNCIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.xPk55csrUTUm32YT_zOE9jOwzdo-3Lg3DsOQycc970g
 metaSortKey: -1634011509684
 isPrivate: false
 settingStoreCookies: true
