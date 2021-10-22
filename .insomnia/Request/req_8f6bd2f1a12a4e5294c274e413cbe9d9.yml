@@ -1,0 +1,71 @@
+_id: req_8f6bd2f1a12a4e5294c274e413cbe9d9
+type: Request
+parentId: fld_61be685134424af59103cc1e09c08b1d
+modified: 1634889320857
+created: 1634886972032
+url: https://api.carimontir.com/users/update
+name: POST User Update
+description: |-2
+        require header rapdig-signature
+        required heaeder Content-Type: multipart/form-data
+        
+  JSON Body :
+
+
+      'name'              => 'required|max:50|min:3|bail',
+      'email'             => 'unique:users,email|max:50|email:rfc,dns|bail',
+      'photo'             => 'nullable',
+      'dob'               => 'required|date_format:Y-m-d|bail',
+      
+  Error Message : 
+
+      [
+          'name.required'     => 'Nama wajib diisi',
+          'name.max'          => 'Nama maksimal 50 huruf',
+          'name.min'          => 'Nama minimal 3 huruf',
+          'email.required'    => 'Email wajib diisi',
+          'email.unique'      => 'Email telah digunakan',
+          'email.max'         => 'Email maksimal 50 huruf',
+          'email.email'       => 'Format email salah',
+          'dob.required'      => 'Tanggal lahir wajib diisi',
+          'dob.date_format'   => 'Format tanggal salah'
+      ]
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: name
+      value: Satria Akun Coba
+      description: ""
+      id: pair_967d15c3f3a5457683d55b57b9de08b9
+    - name: dob
+      value: 1998-04-18
+      description: ""
+      id: pair_94fc143bf46348cab8812ecb2c3c84f2
+    - name: photo
+      value: ""
+      description: ""
+      id: pair_9047cd56b3ba445ab1c04cfd21141da2
+      type: file
+      multiline: null
+      fileName: C:\Users\rekapdigi\Pictures\logo\BANTUBELI\Pil Logo Bantu Beli-04.png
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_fbc60212ce454c0fbc4fda5ad1a1ad5b
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_32dc0fda14284041bb8203e83189c606
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzQ4MDc0NDcsIm5iZiI6MTYzNDgwNzQ0NywianRpIjoiMlpaV1BWUWVCTXY4RTJvUCIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.6lHZukV_EyWapU7dCIFrSQy_vohLuWyhbd65XK--cjQ
+metaSortKey: -1634886972032
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
