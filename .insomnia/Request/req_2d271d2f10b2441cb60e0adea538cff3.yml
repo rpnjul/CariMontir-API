@@ -1,7 +1,7 @@
 _id: req_2d271d2f10b2441cb60e0adea538cff3
 type: Request
 parentId: fld_e60699f6b0c849168eba68b5975618a8
-modified: 1634817059646
+modified: 1634873009808
 created: 1634021692932
 url: https://api.carimontir.com/carts
 name: GET/POST Cart
@@ -9,7 +9,9 @@ description: >2
       required header "rapdig-signature"
 
 
+
       
+
 
 
       
@@ -19,7 +21,9 @@ description: >2
       null
 
 
+
       
+
 
 
 
@@ -37,6 +41,7 @@ description: >2
           'qty'           => 'required|numeric|min:1|bail',
           'type'          => 'required|in:product,service',
           'option_id'     => 'required_if_type=product|nullable|exists:product_options,id|bail',
+          "is_install"    => 'boolean'
       }
 
   Error Message 
@@ -51,24 +56,29 @@ description: >2
           'type.required'         => 'Tipe keranjang dibutuhkan',
           'type.in'               => 'Tipe hanya produk atau Jasa',
           'option_id.required_if' => 'Wajib Memilih pilihan produk',
-          'option_id.exists'      => 'Format Option tidak ditemukan'
+          'option_id.exists'      => 'Format Option tidak ditemukan',
+          'is_install.bool'       => 'Parameter pemasangan salah',
       ]
 
 
+  Custom Validation :
       
+      1. IF 'type' == 'products' , then 'option_id' is required
 
+   
+  Custom Validation Message : 
 
-      
-  IF 'type' == 'products' , then 'option_id' is required
-method: GET
+      1. "message" => ["Wajib pilih jenis barang"]
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"product_id" : 82,
-    	"qty" : 4,
-    	"option_id" : null,
-    	"type" : "product"
+    	"product_id" : 1,
+    	"qty" : 1,
+    	"type" : "product",
+    	"option_id" : 601,
+    	"is_install": true
     }
 parameters: []
 headers:
