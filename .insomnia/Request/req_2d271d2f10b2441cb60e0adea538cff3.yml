@@ -1,7 +1,7 @@
 _id: req_2d271d2f10b2441cb60e0adea538cff3
 type: Request
 parentId: fld_e60699f6b0c849168eba68b5975618a8
-modified: 1634873561902
+modified: 1635238813133
 created: 1634021692932
 url: https://api.carimontir.com/carts
 name: GET/POST Cart
@@ -49,7 +49,7 @@ description: >2
       [
           'product_id.required'   => 'Kode Produk Dibutuhkan',
           'product_id.numeric'    => 'Format Kode Produk Angka',
-          'product_id.exists'     => 'Produk Tidak Ditemukan',
+          'product_id.exists'     => 'Item yang anda cari telah habis atau disembunyikan oleh penyedia',
           'qty.required'          => 'Kuantitas Wajib Di isi',
           'qty.numeric'           => 'Format Kuantitas Hanya Angka',
           'qty.min'               => 'Kuantitas Minimal 1',
@@ -69,16 +69,14 @@ description: >2
   Custom Validation Message : 
 
       1. "message" => ["Wajib pilih jenis barang"]
-method: POST
+method: GET
 body:
   mimeType: application/json
   text: |-
     {
-    	"product_id" : 90,
-    	"qty" : 1,
-    	"type" : "product",
-    	"option_id" : null,
-    	"is_install": true
+    	"product_id" : 136,
+    	"qty"	: 1,
+    	"type" : "service"
     }
 parameters: []
 headers:
@@ -92,7 +90,7 @@ headers:
     id: pair_4bc0d3a83a94477391cae421e7ab7471
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzQ4MDc0NDcsIm5iZiI6MTYzNDgwNzQ0NywianRpIjoiMlpaV1BWUWVCTXY4RTJvUCIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.6lHZukV_EyWapU7dCIFrSQy_vohLuWyhbd65XK--cjQ
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUxNTAwMDgsIm5iZiI6MTYzNTE1MDAwOCwianRpIjoiaVBXV3M1ZDFqajg1Y2tKVyIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.f17y4lbtF33WqIqCGPeXvVidtKkvyo5a4t-bFvRfz3o
 metaSortKey: -1634021692980
 isPrivate: false
 settingStoreCookies: true

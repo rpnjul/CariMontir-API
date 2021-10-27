@@ -1,23 +1,41 @@
 _id: req_861e729d77ad4ec984b8aae1890dfbf9
 type: Request
 parentId: fld_8a5f5cd545b24b388fb89d60d0e0f5f5
-modified: 1634870579364
+modified: 1635237777847
 created: 1633585050944
 url: https://api.carimontir.com/master/products
 name: GET Products
-description: |+2
+description: >+2
       required header "rapdig-signature"
 
   GET PRODUCTS BY ID
 
-  [-] "product_id" is required 
+      required header "Content-Type: application/json"
 
-      example :
+  [-] BODY JSON
+
+
+  Validator:
+
+      'product_id' => 'numeric|exists:products,id|bail'
+
+      
+  Error Message :
+
+      [
+          'product_id.numeric'    => 'Item hanya bersifat angka',
+          'product_id.exists'     => 'Item yang anda cari telah habis atau disembunyikan oleh penyedia',
+      ]
+
+  Example Body :
+
       {
-        "product_id" : 58
+        "product_id" : 25
       }
+
       
   GET ALL PRODUCTS
+
 
   [-] Without Body JSON
 
@@ -25,10 +43,7 @@ description: |+2
 method: GET
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"product_id":90
-    }
+  text: ""
 parameters: []
 headers:
   - name: rapdig-signature

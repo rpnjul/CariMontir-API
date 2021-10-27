@@ -1,7 +1,7 @@
 _id: req_3f14c76d80b843089fa3a2ec728b9389
 type: Request
 parentId: fld_8a5f5cd545b24b388fb89d60d0e0f5f5
-modified: 1634870120176
+modified: 1635245562616
 created: 1633588025504
 url: https://api.carimontir.com/master/service
 name: GET Services
@@ -25,7 +25,10 @@ description: |+2
 method: GET
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"service_id" : 119
+    }
 parameters: []
 headers:
   - name: rapdig-signature

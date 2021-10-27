@@ -1,7 +1,7 @@
 _id: req_6a3524dcc6c047f09032a45d8bc200ce
 type: Request
 parentId: fld_2066a6fc71b64e2bbdb1490886fd1885
-modified: 1634807434942
+modified: 1634896390997
 created: 1633949053300
 url: https://api.carimontir.com/users/logout
 name: Logout
@@ -16,7 +16,7 @@ headers:
     id: pair_eda7de08ccf04aa28b7f9eeb40213ffb
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzQyODMzNTYsIm5iZiI6MTYzNDI4MzM1NiwianRpIjoibGhlNFhiTHp5a1JUUDJnViIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.tvvyZlWCl3UT8MTMlEBh6QBUe-5AloB7VMLs28AI_Hk
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzQ4OTYzODEsIm5iZiI6MTYzNDg5NjM4MSwianRpIjoicjU2c0FpTkZjWmZFV1ZWTyIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.qLEoTyJO26OhPr3sdmSGPhO1kdy_NJs4xkYmL4yPKuU
 metaSortKey: -1633421961751.5
 isPrivate: false
 settingStoreCookies: true

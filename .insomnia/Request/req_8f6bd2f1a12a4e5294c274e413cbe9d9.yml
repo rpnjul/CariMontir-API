@@ -1,13 +1,13 @@
 _id: req_8f6bd2f1a12a4e5294c274e413cbe9d9
 type: Request
 parentId: fld_61be685134424af59103cc1e09c08b1d
-modified: 1634889320857
+modified: 1634896210009
 created: 1634886972032
 url: https://api.carimontir.com/users/update
 name: POST User Update
 description: |-2
-        require header rapdig-signature
-        required heaeder Content-Type: multipart/form-data
+      required header "rapdig-signature"
+      required header Content-Type: multipart/form-data
         
   JSON Body :
 
@@ -47,7 +47,6 @@ body:
       description: ""
       id: pair_9047cd56b3ba445ab1c04cfd21141da2
       type: file
-      multiline: null
       fileName: C:\Users\rekapdigi\Pictures\logo\BANTUBELI\Pil Logo Bantu Beli-04.png
 parameters: []
 headers:

@@ -1,27 +1,29 @@
-_id: req_f923a6dfa6af4fe0a4182e37aef9a141
+_id: req_3b7dc596745f46ac82ced6a23e05b161
 type: Request
-parentId: fld_8a5f5cd545b24b388fb89d60d0e0f5f5
-modified: 1635236232486
-created: 1633586247051
-url: https://api.carimontir.com/master/category
-name: GET Category
-description: '    required header "rapdig-signature" and "Content-Type : application/json"'
+parentId: fld_475d5a7cdfe249fe89d8ebc139b318b1
+modified: 1635237004008
+created: 1635229612187
+url: https://api.carimontir.com/providers
+name: GET ALL Provider
+description: ""
 method: GET
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"provider_id": 78
+    }
 parameters: []
 headers:
   - name: rapdig-signature
     value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
     description: ""
-    id: pair_998a1624cd6b4612b19924558201016f
-    disabled: false
+    id: pair_b36e53d5d4994a4ead0babbecdd58050
   - name: Content-Type
     value: application/json
-    id: pair_cced0c7cd97045e0802a3921a6d6af7d
+    id: pair_7a204b96fc124412ad21ca554db002cc
 authentication: {}
-metaSortKey: -1633585050969
+metaSortKey: -1635229612187
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
