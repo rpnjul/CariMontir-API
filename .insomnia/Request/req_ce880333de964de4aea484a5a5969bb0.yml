@@ -1,7 +1,7 @@
 _id: req_ce880333de964de4aea484a5a5969bb0
 type: Request
 parentId: fld_45041927ad9a41feacf68edb9881bda9
-modified: 1635217808082
+modified: 1635419895093
 created: 1634797289980
 url: https://api.carimontir.com/checkout
 name: GET Checkout
@@ -9,11 +9,20 @@ description: ""
 method: GET
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"provider_id" : 78
-    }
-parameters: []
+  text: ""
+parameters:
+  - name: cart_service
+    value: 82,265,1
+    description: ""
+    id: pair_adc1c0d1ef8b450cbf95decf0c7ddfd8
+  - name: cart_product
+    value: 334,327
+    description: ""
+    id: pair_54f9147c4be54b6bb9c0b7f693bb5e90
+  - name: provider_id
+    value: "78"
+    description: ""
+    id: pair_d61a1d8479a94bd4ba5bee736b82b611
 headers:
   - name: rapdig-signature
     value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
@@ -22,7 +31,7 @@ headers:
     disabled: false
   - name: Content-Type
     value: application/json
-    id: pair_b9bebe4b6ea24d40877b84c7dbc5b1e0
+    id: pair_e309929138744469b0e99c1302301846
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUyMTY5MjgsIm5iZiI6MTYzNTIxNjkyOCwianRpIjoiMjYzbzBxVWxKWDNvblE3ZSIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.3uryEqPiBfHEn-17DsmEICbwZUlmPJ1EW1Bz6cWm9B4

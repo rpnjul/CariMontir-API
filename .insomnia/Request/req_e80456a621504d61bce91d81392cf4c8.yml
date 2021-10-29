@@ -1,0 +1,61 @@
+_id: req_e80456a621504d61bce91d81392cf4c8
+type: Request
+parentId: fld_8a5f5cd545b24b388fb89d60d0e0f5f5
+modified: 1635392949712
+created: 1635392526998
+url: https://api.carimontir.com/master/contact
+name: Kontak
+description: >-
+  JSON body :
+
+        {
+          name: 'Satria Aprilian',
+          email: 'satriaaprilian18@gmail.com',
+          message: 'Wadidawwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww'
+        }
+  Validator :
+    
+       [
+          'name'  => 'required|max:50|bail',
+          'email' => 'required|string|email|max:255|email:rfc,dns|bail',
+          'message' => 'required|max:4000'
+      ]
+  Message ERROR : 
+
+      [
+          'name.required' => 'Nama wajib diisi',
+          'name.max'      => 'Maksimum nama 50 huruf',
+          'email.required'    => 'Email wajib diisi',
+          'email.string'      => 'Email hanya bersifat teks',
+          'email.email'       => 'Format email tidak valid',
+          'email.max'         => 'Maksimuim email 50 255 huruf',
+          'message.required'  => 'Pesan wajib di isi',
+          'message.max'       => 'Maksimum pesan 4000 huruf'
+      ]
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"name" : "Satria Aprilian",
+    	"email"	: "satriaaprilian18@gmail.com",
+    	"message" : "Wadidawwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww"
+    }
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_37eabb1361e44845974f018f0faf416b
+  - name: Content-Type
+    value: application/json
+    id: pair_fe2760da3a3d4d7a936456222faf1473
+authentication: {}
+metaSortKey: -1633512560034
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

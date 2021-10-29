@@ -1,7 +1,7 @@
 _id: req_8f6bd2f1a12a4e5294c274e413cbe9d9
 type: Request
 parentId: fld_61be685134424af59103cc1e09c08b1d
-modified: 1634896210009
+modified: 1635421840191
 created: 1634886972032
 url: https://api.carimontir.com/users/update
 name: POST User Update
@@ -13,7 +13,6 @@ description: |-2
 
 
       'name'              => 'required|max:50|min:3|bail',
-      'email'             => 'unique:users,email|max:50|email:rfc,dns|bail',
       'photo'             => 'nullable',
       'dob'               => 'required|date_format:Y-m-d|bail',
       
@@ -23,10 +22,6 @@ description: |-2
           'name.required'     => 'Nama wajib diisi',
           'name.max'          => 'Nama maksimal 50 huruf',
           'name.min'          => 'Nama minimal 3 huruf',
-          'email.required'    => 'Email wajib diisi',
-          'email.unique'      => 'Email telah digunakan',
-          'email.max'         => 'Email maksimal 50 huruf',
-          'email.email'       => 'Format email salah',
           'dob.required'      => 'Tanggal lahir wajib diisi',
           'dob.date_format'   => 'Format tanggal salah'
       ]

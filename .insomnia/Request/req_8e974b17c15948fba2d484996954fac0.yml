@@ -1,7 +1,7 @@
 _id: req_8e974b17c15948fba2d484996954fac0
 type: Request
 parentId: fld_5acf1c87e2094109a98df87bd4cb396d
-modified: 1634006184795
+modified: 1635393068424
 created: 1633598532648
 url: https://api.carimontir.com/master/dl/year
 name: GET Car Year
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"model_id" : 113
+    	"model_id" : 227
     }
 parameters: []
 headers:
