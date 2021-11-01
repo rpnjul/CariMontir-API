@@ -1,7 +1,7 @@
 _id: req_c1f5787c86914246b95bf9d5499160ce
 type: Request
 parentId: fld_e60699f6b0c849168eba68b5975618a8
-modified: 1634870322218
+modified: 1635736553146
 created: 1634803093567
 url: https://api.carimontir.com/carts/total
 name: GET Cart Total
@@ -20,7 +20,7 @@ headers:
     disabled: false
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzQ4MDc0NDcsIm5iZiI6MTYzNDgwNzQ0NywianRpIjoiMlpaV1BWUWVCTXY4RTJvUCIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.6lHZukV_EyWapU7dCIFrSQy_vohLuWyhbd65XK--cjQ
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUxNTAwMDgsIm5iZiI6MTYzNTE1MDAwOCwianRpIjoiaVBXV3M1ZDFqajg1Y2tKVyIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.f17y4lbtF33WqIqCGPeXvVidtKkvyo5a4t-bFvRfz3o
 metaSortKey: -1634021685431.5625
 isPrivate: false
 settingStoreCookies: true

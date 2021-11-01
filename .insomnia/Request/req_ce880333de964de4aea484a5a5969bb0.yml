@@ -1,22 +1,43 @@
 _id: req_ce880333de964de4aea484a5a5969bb0
 type: Request
 parentId: fld_45041927ad9a41feacf68edb9881bda9
-modified: 1635419895093
+modified: 1635740832333
 created: 1634797289980
 url: https://api.carimontir.com/checkout
 name: GET Checkout
-description: ""
+description: "    required header \"rapdig-signature\"
+
+
+
+  \   \ 
+
+
+
+  \   \ 
+
+
+  -- GET Documentation (required fields)
+
+
+  \    null
+
+
+  -- Query Header / JSON Body
+
+
+  \   \ 
+
+
+  \ "
 method: GET
-body:
-  mimeType: application/json
-  text: ""
+body: {}
 parameters:
   - name: cart_service
-    value: 82,265,1
+    value: "277"
     description: ""
     id: pair_adc1c0d1ef8b450cbf95decf0c7ddfd8
   - name: cart_product
-    value: 334,327
+    value: 377,378
     description: ""
     id: pair_54f9147c4be54b6bb9c0b7f693bb5e90
   - name: provider_id
@@ -29,12 +50,9 @@ headers:
     description: ""
     id: pair_9838cd29ec1943438e1efff572ad7e89
     disabled: false
-  - name: Content-Type
-    value: application/json
-    id: pair_e309929138744469b0e99c1302301846
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUyMTY5MjgsIm5iZiI6MTYzNTIxNjkyOCwianRpIjoiMjYzbzBxVWxKWDNvblE3ZSIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.3uryEqPiBfHEn-17DsmEICbwZUlmPJ1EW1Bz6cWm9B4
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUxNTAwMDgsIm5iZiI6MTYzNTE1MDAwOCwianRpIjoiaVBXV3M1ZDFqajg1Y2tKVyIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.f17y4lbtF33WqIqCGPeXvVidtKkvyo5a4t-bFvRfz3o
 metaSortKey: -1634021668825
 isPrivate: false
 settingStoreCookies: true

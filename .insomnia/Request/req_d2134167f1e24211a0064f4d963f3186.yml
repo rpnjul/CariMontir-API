@@ -1,0 +1,42 @@
+_id: req_d2134167f1e24211a0064f4d963f3186
+type: Request
+parentId: fld_e60699f6b0c849168eba68b5975618a8
+modified: 1635735199885
+created: 1635734999163
+url: https://api.carimontir.com/carts/delete/all
+name: POST Delete All
+description: |-2
+      required header "rapdig-signature"
+
+
+      
+  -- POST Documentation (required fields)
+
+
+
+  JSON Body :
+
+      null
+      
+  Error Message :
+
+      null
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_ecf6f9712b8e44e5abd4bcaad4738d8f
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUyMTY5MjgsIm5iZiI6MTYzNTIxNjkyOCwianRpIjoiMjYzbzBxVWxKWDNvblE3ZSIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.3uryEqPiBfHEn-17DsmEICbwZUlmPJ1EW1Bz6cWm9B4
+metaSortKey: -1634021684488.0078
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

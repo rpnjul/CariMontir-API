@@ -1,7 +1,7 @@
 _id: req_41ad2a0c1fd14167a032fd7dd892bd51
 type: Request
 parentId: fld_e60699f6b0c849168eba68b5975618a8
-modified: 1634816814885
+modified: 1635736481222
 created: 1634816434035
 url: https://api.carimontir.com/carts/delete
 name: POST Delete By ID Cart
@@ -35,7 +35,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"cart_id" : 112,
+    	"cart_id" : 361,
     	"type"		: "product" 
     }
 parameters: []
@@ -49,7 +49,7 @@ headers:
     id: pair_53391c48fd074dce99810377aaaf7086
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzQ4MDc0NDcsIm5iZiI6MTYzNDgwNzQ0NywianRpIjoiMlpaV1BWUWVCTXY4RTJvUCIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.6lHZukV_EyWapU7dCIFrSQy_vohLuWyhbd65XK--cjQ
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUxNTAwMDgsIm5iZiI6MTYzNTE1MDAwOCwianRpIjoiaVBXV3M1ZDFqajg1Y2tKVyIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.f17y4lbtF33WqIqCGPeXvVidtKkvyo5a4t-bFvRfz3o
 metaSortKey: -1634021684299.2969
 isPrivate: false
 settingStoreCookies: true
