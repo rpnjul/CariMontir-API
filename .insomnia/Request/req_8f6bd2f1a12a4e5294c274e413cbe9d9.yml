@@ -1,7 +1,7 @@
 _id: req_8f6bd2f1a12a4e5294c274e413cbe9d9
 type: Request
 parentId: fld_61be685134424af59103cc1e09c08b1d
-modified: 1635421840191
+modified: 1635915094612
 created: 1634886972032
 url: https://api.carimontir.com/users/update
 name: POST User Update
@@ -55,7 +55,7 @@ headers:
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzQ4MDc0NDcsIm5iZiI6MTYzNDgwNzQ0NywianRpIjoiMlpaV1BWUWVCTXY4RTJvUCIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.6lHZukV_EyWapU7dCIFrSQy_vohLuWyhbd65XK--cjQ
-metaSortKey: -1634886972032
+metaSortKey: -1635915087591
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
