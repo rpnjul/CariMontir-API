@@ -1,7 +1,7 @@
 _id: req_ce880333de964de4aea484a5a5969bb0
 type: Request
 parentId: fld_a3433cc62fdc4941bb4dc47d78df7c0c
-modified: 1635920750603
+modified: 1635933803542
 created: 1634797289980
 url: https://api.carimontir.com/checkout
 name: GET Checkout
@@ -36,14 +36,21 @@ parameters:
     value: 277,291,278
     description: ""
     id: pair_adc1c0d1ef8b450cbf95decf0c7ddfd8
+    disabled: false
   - name: cart_product
     value: 377,378
     description: ""
     id: pair_54f9147c4be54b6bb9c0b7f693bb5e90
+    disabled: false
   - name: provider_id
     value: "78"
     description: ""
     id: pair_d61a1d8479a94bd4ba5bee736b82b611
+  - name: vehicle_id
+    value: "2"
+    description: ""
+    id: pair_b883f59ab6ea49138a8d058f239ec7cc
+    disabled: false
 headers:
   - name: rapdig-signature
     value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
