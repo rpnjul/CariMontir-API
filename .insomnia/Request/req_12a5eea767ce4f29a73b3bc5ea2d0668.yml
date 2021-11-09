@@ -1,0 +1,122 @@
+_id: req_12a5eea767ce4f29a73b3bc5ea2d0668
+type: Request
+parentId: fld_a3433cc62fdc4941bb4dc47d78df7c0c
+modified: 1636453608874
+created: 1636438108298
+url: https://api.carimontir.com/checkout
+name: POST Checkout
+description: "    required header \"rapdig-signature\"
+
+
+
+  \   \ 
+
+
+
+  \   \ 
+
+
+  -- GET Documentation (required fields)
+
+
+  \    null
+
+
+  -- Query Header / JSON Body
+
+
+  \   \ 
+
+
+  \ "
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+       "cproducts": [
+          {
+             "id": 1,
+             "qty": 7,
+             "is_install": true,
+             "is_location": false
+          },
+          {
+             "id": 8,
+             "qty": 2,
+             "is_install": false,
+             "is_location": true
+          },
+          {
+             "id": 5,
+             "qty": 6,
+             "is_install": false,
+             "is_location": true
+          },
+          {
+             "id": 7,
+             "qty": 5,
+             "is_install": false,
+             "is_location": false
+          },
+          {
+             "id": 4,
+             "qty": 9,
+             "is_install": true,
+             "is_location": true
+          }
+       ],
+       "cservices": [
+          {
+             "id": 0,
+             "qty": 1,
+             "is_location": false
+          },
+          {
+             "id": 3,
+             "qty": 1,
+             "is_location": true
+          },
+          {
+             "id": 5,
+             "qty": 9,
+             "is_location": true
+          },
+          {
+             "id": 5,
+             "qty": 7,
+             "is_location": false
+          },
+          {
+             "id": 5,
+             "qty": 2,
+             "is_location": false
+          }
+       ],
+    	
+    	 "provider_id":78,
+       "payment_id": 4,
+    	 "vehicle_id": 0,
+       "address_id": 0
+    }
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_9838cd29ec1943438e1efff572ad7e89
+    disabled: false
+  - name: Content-Type
+    value: application/json
+    id: pair_118c699380ad42b69535b6a73e1ee18b
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUxNTAwMDgsIm5iZiI6MTYzNTE1MDAwOCwianRpIjoiaVBXV3M1ZDFqajg1Y2tKVyIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.f17y4lbtF33WqIqCGPeXvVidtKkvyo5a4t-bFvRfz3o
+metaSortKey: -1634021668800
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

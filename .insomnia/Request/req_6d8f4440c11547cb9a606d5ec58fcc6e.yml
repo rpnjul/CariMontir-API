@@ -1,0 +1,57 @@
+_id: req_6d8f4440c11547cb9a606d5ec58fcc6e
+type: Request
+parentId: fld_04c2877d98a84d50ade689b7ee6bfe0f
+modified: 1636443468178
+created: 1636427997807
+url: https://api.carimontir.com/search/service
+name: GET Search Service
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"q" : "a"
+    }
+parameters:
+  - name: q
+    value: ""
+    description: ""
+    id: pair_985a8234205648b98a873dc221854bbb
+  - name: cat
+    value: ""
+    description: ""
+    id: pair_a332e3cce66a43758ee7ac27a1f077f2
+  - name: state
+    value: ""
+    description: ""
+    id: pair_9ab473a4a100426c85603cb55869e057
+  - name: pmin
+    value: ""
+    description: ""
+    id: pair_3861fa604cf24cb2a5215457220ce985
+  - name: pmax
+    value: ""
+    description: ""
+    id: pair_b5eef9f068c94a61bd9d11bfc437243b
+  - name: order
+    value: ""
+    description: ""
+    id: pair_2583bda4ae744306aefe5acacfd008c3
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_aec97a9b495a47ef8d9f973700b39862
+  - name: Content-Type
+    value: application/json
+    id: pair_c3f34c8652ee40eca6c7fd2b899a8ab3
+authentication: {}
+metaSortKey: -1636006168026
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

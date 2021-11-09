@@ -1,0 +1,37 @@
+_id: req_d0db80ec9106475e8cbe020ae33991a9
+type: Request
+parentId: fld_04c2877d98a84d50ade689b7ee6bfe0f
+modified: 1636443439808
+created: 1636428041950
+url: https://api.carimontir.com/search/provider
+name: GET Search Provider
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"q" : "jejel"
+    }
+parameters:
+  - name: q
+    value: bengkel jejel
+    description: ""
+    id: pair_6ef5e8c6603745e9a96567fd7b4b4954
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_aec97a9b495a47ef8d9f973700b39862
+  - name: Content-Type
+    value: application/json
+    id: pair_c3f34c8652ee40eca6c7fd2b899a8ab3
+authentication: {}
+metaSortKey: -1636051701418
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

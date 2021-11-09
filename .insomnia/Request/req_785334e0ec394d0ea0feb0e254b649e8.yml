@@ -1,10 +1,10 @@
-_id: req_e34462364bb444cab0a7adb47e677a6d
+_id: req_785334e0ec394d0ea0feb0e254b649e8
 type: Request
 parentId: fld_b93df8d9bf6d43e5ae44a28567e27b54
-modified: 1636432624077
-created: 1634539658644
-url: https://api.carimontir.com/master/address/state
-name: GET Data Province
+modified: 1636432642782
+created: 1636432635242
+url: https://api.carimontir.com/master/address/state/indonesia
+name: GET Data Province Indonesia
 description: |-2
       required header "rapdig-signature"
       
@@ -20,20 +20,15 @@ description: |-2
           'country_id.exists'   => 'Kode wilayah tidak terdaftar'
       ]
 method: GET
-body:
-  mimeType: application/json
-  text: ""
+body: {}
 parameters: []
 headers:
   - name: rapdig-signature
     value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
     description: ""
     id: pair_e9a37d0387dc4cf9a31fe84ff977ad84
-  - name: Content-Type
-    value: application/json
-    id: pair_c141f7d2c4394a9d825996f410b384c1
 authentication: {}
-metaSortKey: -1633505764053.375
+metaSortKey: -1633505197715.4062
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

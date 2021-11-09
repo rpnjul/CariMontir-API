@@ -1,0 +1,33 @@
+_id: req_8a335e6f7b5446628e4c82731dfc3116
+type: Request
+parentId: fld_04c2877d98a84d50ade689b7ee6bfe0f
+modified: 1636428021192
+created: 1636428018340
+url: https://api.carimontir.com/search/service/5
+name: GET Search Service LIMIT
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"q" : "a"
+    }
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_aec97a9b495a47ef8d9f973700b39862
+  - name: Content-Type
+    value: application/json
+    id: pair_c3f34c8652ee40eca6c7fd2b899a8ab3
+authentication: {}
+metaSortKey: -1635960634634
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

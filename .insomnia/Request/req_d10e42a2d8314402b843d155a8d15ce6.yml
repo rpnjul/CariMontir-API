@@ -1,10 +1,10 @@
-_id: req_cf4d51d261164cac94de8db7caed766f
+_id: req_d10e42a2d8314402b843d155a8d15ce6
 type: Request
-parentId: fld_45041927ad9a41feacf68edb9881bda9
-modified: 1636360113611
-created: 1634011509684
-url: https://api.carimontir.com/me
-name: GET me
+parentId: fld_8a5f5cd545b24b388fb89d60d0e0f5f5
+modified: 1636441049660
+created: 1636084931872
+url: https://api.carimontir.com/master/payment
+name: GET Payment
 description: ""
 method: GET
 body: {}
@@ -13,11 +13,11 @@ headers:
   - name: rapdig-signature
     value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
     description: ""
-    id: pair_256841e85db7417999a83d7a132dfc87
+    id: pair_03612fe16bde4706a2da168d6e82f527
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUxNTAwMDgsIm5iZiI6MTYzNTE1MDAwOCwianRpIjoiaVBXV3M1ZDFqajg1Y2tKVyIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.f17y4lbtF33WqIqCGPeXvVidtKkvyo5a4t-bFvRfz3o
-metaSortKey: -1634021668925
+metaSortKey: -1633512560059
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
