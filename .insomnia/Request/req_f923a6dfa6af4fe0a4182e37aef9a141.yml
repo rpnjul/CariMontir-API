@@ -1,15 +1,13 @@
 _id: req_f923a6dfa6af4fe0a4182e37aef9a141
 type: Request
 parentId: fld_8a5f5cd545b24b388fb89d60d0e0f5f5
-modified: 1635236232486
+modified: 1636599296340
 created: 1633586247051
 url: https://api.carimontir.com/master/category
 name: GET Category
 description: '    required header "rapdig-signature" and "Content-Type : application/json"'
 method: GET
-body:
-  mimeType: application/json
-  text: ""
+body: {}
 parameters: []
 headers:
   - name: rapdig-signature
@@ -17,9 +15,6 @@ headers:
     description: ""
     id: pair_998a1624cd6b4612b19924558201016f
     disabled: false
-  - name: Content-Type
-    value: application/json
-    id: pair_cced0c7cd97045e0802a3921a6d6af7d
 authentication: {}
 metaSortKey: -1633585050969
 isPrivate: false

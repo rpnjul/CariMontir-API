@@ -1,0 +1,28 @@
+_id: req_650ebbd988fe4988960fdebf19cabd19
+type: Request
+parentId: fld_90363d9fbb11456681d252be663d87bc
+modified: 1636621321342
+created: 1636621292801
+url: https://api.carimontir.com/user/vehicle/
+name: GET Vehicle
+description: |2
+      required header "rapdig-signature"
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_fbc60212ce454c0fbc4fda5ad1a1ad5b
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUxNTAwMDgsIm5iZiI6MTYzNTE1MDAwOCwianRpIjoiaVBXV3M1ZDFqajg1Y2tKVyIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.f17y4lbtF33WqIqCGPeXvVidtKkvyo5a4t-bFvRfz3o
+metaSortKey: -1634454332556
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

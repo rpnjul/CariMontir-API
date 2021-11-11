@@ -1,0 +1,86 @@
+_id: req_a21d039744eb4736aaea96916531b71f
+type: Request
+parentId: fld_d60e10d13962496d8cd5034cfab883be
+modified: 1636623798555
+created: 1636619783192
+url: https://api.carimontir.com/user/address/edit/18
+name: GET / POST Update Address
+description: >-2
+      required header "rapdig-signature" and bearer Token
+
+      
+  URI : 
+
+      https://api.carimontir.com/user/address/edit/{id}
+
+  JSON Body Required : 
+
+
+        {
+              'address'   => 'required|max:1000',
+              'state'     => 'required|exists:state,id,country_id,'.$countryId.'|bail',
+              'city'      => 'required|exists:city,id,state_id,'.$request->state.'|bail',
+              'pincode'   => 'required|numeric|bail',
+              'lat'       => 'nullable',
+              'long'      => 'nullable',
+              'title'     => 'required',
+              'name'      => 'required|string|max:80|bail',
+              'phone'     => 'required|max:13|min:10|bail'
+        }
+
+        
+
+        
+  Error Message : 
+
+
+      [
+              'address.*'         => 'Alamat wajib diisi',
+              'state.required'    => 'Wajib memilih state',
+              'state.exists'      => 'State tidak ditemukan atau salah',
+              'city.required'     => 'Wajib memilih kota',
+              'city.exists'       => 'Kota tidak ditemukan atau salah',
+              'pincode.required'  => 'Wajib mengisi kode pos',
+              'pincode.numeric'   => 'Format kode pos hanya angka',
+              'title.required'    => 'Wajib mengisi judul alamat',
+              'name.required'     => 'Wajib mengisi nama pelanggan',
+              'name.max'          => 'Nama maksimal 80 huruf',
+              'phone.required'    => 'Wajib memasukan nomor telefon',
+              'phone.max'         => 'Nomor telefon maksimal 13 angka',
+              'phone.min'         => 'Nomor telefon minimal 10 angka'
+      ]
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"address" : "Jalan kayumanis RT.008 RW.003 No.04",
+    	"state" : 1673,
+    	"city" : 47578,
+    	"pincode" : "13530",
+    	"lat" : 0,
+    	"long" : 0,
+    	"title" : "Rumah nenek",
+    	"name" : "Satria Aprilian",
+    	"phone" : "0895371529602"
+    }
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_14e60a0e73a6413d9157654f6aff4b21
+  - name: Content-Type
+    value: application/json
+    id: pair_e3c4e14c8d5647bb81e1cd882c5f607e
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUxNTAwMDgsIm5iZiI6MTYzNTE1MDAwOCwianRpIjoiaVBXV3M1ZDFqajg1Y2tKVyIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.f17y4lbtF33WqIqCGPeXvVidtKkvyo5a4t-bFvRfz3o
+metaSortKey: -1636414838109.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,7 +1,7 @@
 _id: req_12a5eea767ce4f29a73b3bc5ea2d0668
 type: Request
 parentId: fld_a3433cc62fdc4941bb4dc47d78df7c0c
-modified: 1636453608874
+modified: 1636614160493
 created: 1636438108298
 url: https://api.carimontir.com/checkout
 name: POST Checkout
@@ -36,68 +36,32 @@ body:
     {
        "cproducts": [
           {
-             "id": 1,
-             "qty": 7,
+             "id": 12312,
              "is_install": true,
              "is_location": false
           },
-          {
-             "id": 8,
-             "qty": 2,
-             "is_install": false,
-             "is_location": true
-          },
-          {
-             "id": 5,
-             "qty": 6,
-             "is_install": false,
-             "is_location": true
-          },
-          {
-             "id": 7,
-             "qty": 5,
-             "is_install": false,
-             "is_location": false
-          },
-          {
-             "id": 4,
-             "qty": 9,
-             "is_install": true,
-             "is_location": true
-          }
+    		 {
+    			 "id" : 496,
+    			 "is_install" : false,
+    			 "is_location" : true
+    		 }
        ],
        "cservices": [
           {
-             "id": 0,
-             "qty": 1,
+             "id": 279,
              "is_location": false
           },
           {
-             "id": 3,
-             "qty": 1,
+             "id": 280,
              "is_location": true
-          },
-          {
-             "id": 5,
-             "qty": 9,
-             "is_location": true
-          },
-          {
-             "id": 5,
-             "qty": 7,
-             "is_location": false
-          },
-          {
-             "id": 5,
-             "qty": 2,
-             "is_location": false
           }
        ],
-    	
-    	 "provider_id":78,
-       "payment_id": 4,
-    	 "vehicle_id": 0,
-       "address_id": 0
+    	 "provider_id" : 82,
+       "payment_id" : 2,
+    	 "vehicle_id" : 2,
+       "address_id" : 19,
+    	 "book_date" : "18-04-2021",
+    	 "book_time" : "01:00 PM - 03:00 PM"
     }
 parameters: []
 headers:

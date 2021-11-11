@@ -1,0 +1,62 @@
+_id: req_d1be3526d92f44968aa8c2343583de3b
+type: Request
+parentId: fld_90363d9fbb11456681d252be663d87bc
+modified: 1636624228393
+created: 1636621413396
+url: https://api.carimontir.com/user/vehicle/edit/7
+name: GET/POST UPDATE Vehicle
+description: >-2
+      required header "rapdig-signature"
+
+  URI : 
+
+      https://api.carimontir.com/user/vehicle/edit/{id}
+
+      
+
+      
+  JSON Body Require : 
+
+      {
+            'name'                  => 'required|string|max:80|bail',
+            'description'           => 'nullable|string|max:250|bail',
+            'variant'               => 'required|exists:dat_vehiclevariant,dvv_id|bail'
+      }
+
+      
+  Error Message : 
+
+        [
+                  'name.required'         => 'Nama wajib diisi',
+                  'name.string'           => 'Format nama hanya bersifat huruf/teks',
+                  'name.max'              => 'Nama maksimal 80 huruf',
+                  'variant.required'      => 'Varian kendaraan wajib dipilih',
+                  'variant.exists'        => 'Varian kendaraan tidak ditemukan',
+        ]
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name" : ""
+    }
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_fbc60212ce454c0fbc4fda5ad1a1ad5b
+  - name: Content-Type
+    value: application/json
+    id: pair_c30ea03318ec4a5187bb0e087ec387d1
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUxNTAwMDgsIm5iZiI6MTYzNTE1MDAwOCwianRpIjoiaVBXV3M1ZDFqajg1Y2tKVyIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.f17y4lbtF33WqIqCGPeXvVidtKkvyo5a4t-bFvRfz3o
+metaSortKey: -1634454332518.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
