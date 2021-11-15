@@ -1,7 +1,7 @@
 _id: req_760d1b38021446ceaa4fef65ad68b9c2
 type: Request
 parentId: fld_04c2877d98a84d50ade689b7ee6bfe0f
-modified: 1636960780620
+modified: 1636972270406
 created: 1636097234754
 url: https://api.carimontir.com/search?q=dummy&page=1
 name: GET Search
@@ -18,7 +18,7 @@ description: >-2
           'pmin'          => 'nullable|bail',
           'pmax'          => 'nullable|bail',
           'order'         => 'nullable|in:1,2,3,4|bail',
-          'type'         =>  'nullable|in:0,1,2|bail'
+          'type'         =>  'nullable|in:0,1|bail'
         }
         
         Param "cat" FROM API "https://api.carimontir.com/master/category"
@@ -31,10 +31,9 @@ description: >-2
 
             Default (Name A to Z) 
         }
-        Param "type" Just In 0 OR 1 OR 2 With Condition {
+        Param "type" Just In 0 OR 1 With Condition {
             0. Tanpa Instalasi
-            1. Instalasai Dibengkel
-            2. Instalasi Dirumah
+            1. Instalasai Dibengkel & Dirumah
         }
 method: GET
 body: {}
@@ -75,7 +74,7 @@ parameters:
     id: pair_91484c12e8b3428aa88d9e5add6439b9
     disabled: true
   - name: type
-    value: 0,1,2
+    value: "1"
     description: ""
     id: pair_ecc73abdc2214eb7bb40ad0c1c6c2145
 headers:

@@ -1,11 +1,40 @@
 _id: req_6d8f4440c11547cb9a606d5ec58fcc6e
 type: Request
 parentId: fld_04c2877d98a84d50ade689b7ee6bfe0f
-modified: 1636443468178
+modified: 1636972410017
 created: 1636427997807
 url: https://api.carimontir.com/search/service
 name: GET Search Service
-description: ""
+description: >-2
+      required header "rapdig-signature"
+
+
+  Required Query Parameter :
+
+        {
+          'q'             => 'required|regex:/^[a-z\d\-_\s]+$/i|bail',
+          'cat'           => 'nullable|bail',
+          'state'         => 'nullable|bail',
+          'pmin'          => 'nullable|bail',
+          'pmax'          => 'nullable|bail',
+          'order'         => 'nullable|in:1,2,3,4|bail',
+          'type'         =>  'nullable|in:0,1|bail'
+        }
+        
+        Param "cat" FROM API "https://api.carimontir.com/master/category"
+        Param "state" FROM API "https://api.carimontir.com/master/address/state/indonesia"
+        Param "order" Just In 1 OR 2 OR 3 OR 4 With Condition {
+            1. Harga rendah ke tinggi
+            2. Harga tinggi ke rendah
+            3. Paling laris
+            4. Terbaru
+
+            Default (Name A to Z) 
+        }
+        Param "type" Just In 0 OR 1 With Condition {
+            0. Tanpa Instalasi
+            1. Instalasai Dibengkel & Dirumah
+        }
 method: GET
 body:
   mimeType: application/json
