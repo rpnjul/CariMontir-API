@@ -1,7 +1,7 @@
 _id: req_a39082a11ce6471b85ebb44b75e3b0bc
 type: Request
 parentId: fld_b93df8d9bf6d43e5ae44a28567e27b54
-modified: 1636442939452
+modified: 1636965157062
 created: 1634553127498
 url: https://api.carimontir.com/master/address/city
 name: GET Data City
@@ -24,7 +24,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"state_id" : 1673
+    	"state_id" : 1678
     }
 parameters: []
 headers:

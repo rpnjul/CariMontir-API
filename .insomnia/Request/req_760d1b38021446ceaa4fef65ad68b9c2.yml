@@ -1,9 +1,9 @@
 _id: req_760d1b38021446ceaa4fef65ad68b9c2
 type: Request
 parentId: fld_04c2877d98a84d50ade689b7ee6bfe0f
-modified: 1636443370966
+modified: 1636960780620
 created: 1636097234754
-url: https://api.carimontir.com/search?page=3
+url: https://api.carimontir.com/search?q=dummy&page=1
 name: GET Search
 description: >-2
       required header "rapdig-signature"
@@ -18,6 +18,7 @@ description: >-2
           'pmin'          => 'nullable|bail',
           'pmax'          => 'nullable|bail',
           'order'         => 'nullable|in:1,2,3,4|bail',
+          'type'         =>  'nullable|in:0,1,2|bail'
         }
         
         Param "cat" FROM API "https://api.carimontir.com/master/category"
@@ -30,13 +31,19 @@ description: >-2
 
             Default (Name A to Z) 
         }
+        Param "type" Just In 0 OR 1 OR 2 With Condition {
+            0. Tanpa Instalasi
+            1. Instalasai Dibengkel
+            2. Instalasi Dirumah
+        }
 method: GET
 body: {}
 parameters:
   - name: q
-    value: bengkel jejel
+    value: dummy
     description: ""
     id: pair_0bd9a2e1f543408cb54a26eeaffc6439
+    disabled: false
   - name: cat
     value: "5"
     description: ""
@@ -46,22 +53,31 @@ parameters:
     value: "1673"
     description: ""
     id: pair_3f299a0c5eaa47c1a9731738dfa7a6cb
-    disabled: false
+    disabled: true
   - name: pmin
     value: "10000"
     description: ""
     id: pair_8147074b1b734c40bd976718c5f341eb
-    disabled: false
+    disabled: true
   - name: pmax
     value: "100000"
     description: ""
     id: pair_756b6f49350f44cb999e4202eb2b4374
-    disabled: false
+    disabled: true
   - name: order
     value: "4"
     description: ""
     id: pair_c715414e95eb439fbda4c8d0db2f23fe
-    disabled: false
+    disabled: true
+  - name: page
+    value: "2"
+    description: ""
+    id: pair_91484c12e8b3428aa88d9e5add6439b9
+    disabled: true
+  - name: type
+    value: 0,1,2
+    description: ""
+    id: pair_ecc73abdc2214eb7bb40ad0c1c6c2145
 headers:
   - name: rapdig-signature
     value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
