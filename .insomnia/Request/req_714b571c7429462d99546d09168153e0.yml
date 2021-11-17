@@ -1,10 +1,10 @@
-_id: req_af49fec0c8614171937c48fed60d0f51
+_id: req_714b571c7429462d99546d09168153e0
 type: Request
 parentId: fld_d60e10d13962496d8cd5034cfab883be
-modified: 1637119406665
-created: 1637117378336
-url: https://api.carimontir.com/user/address/delete
-name: POST Delete Address
+modified: 1637119415512
+created: 1637119341115
+url: https://api.carimontir.com/user/address/change
+name: POST Change Address Main
 description: >-2
       required header "rapdig-signature" and bearer Token
 
@@ -12,8 +12,8 @@ description: >-2
   JSON Body Required : 
 
 
-        {
-              'address_id'    => 'required|numeric|exists:user_address,id,user_id,bearer_token_id|bail',
+         {
+          'address_id'    => 'required|numeric|exists:user_address,id,user_id,bearer_token_id|bail',
         }
 
         
@@ -32,7 +32,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"address_id" : 18
+    	"address_id" : 1
     }
 parameters: []
 headers:
@@ -46,7 +46,7 @@ headers:
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUxNTAwMDgsIm5iZiI6MTYzNTE1MDAwOCwianRpIjoiaVBXV3M1ZDFqajg1Y2tKVyIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.f17y4lbtF33WqIqCGPeXvVidtKkvyo5a4t-bFvRfz3o
-metaSortKey: -1636381052655.375
+metaSortKey: -1636397945382.5625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
