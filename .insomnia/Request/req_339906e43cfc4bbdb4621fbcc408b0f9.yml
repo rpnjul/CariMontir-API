@@ -1,0 +1,44 @@
+_id: req_339906e43cfc4bbdb4621fbcc408b0f9
+type: Request
+parentId: fld_816468a5974e47e691bed9b6d7011b91
+modified: 1637138631087
+created: 1637120009172
+url: https://api.carimontir.com/user/orders/detail/6
+name: GET Order detail
+description: |-2
+      required header "rapdig-signature"
+
+
+  URI : https://api.carimontir.com/user/orders/{status}
+
+  status : 
+    - waiting
+    
+      Order Status : 0,1
+    
+    - process
+    
+      Order Status : 2,3
+    
+    - (default) all 
+
+      Order Status : 0 - 7
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_8ab36aafe53a4a3d9ddef67ab1b95889
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUxNTAwMDgsIm5iZiI6MTYzNTE1MDAwOCwianRpIjoiaVBXV3M1ZDFqajg1Y2tKVyIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.f17y4lbtF33WqIqCGPeXvVidtKkvyo5a4t-bFvRfz3o
+metaSortKey: -1635915094416.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

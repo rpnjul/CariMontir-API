@@ -1,7 +1,7 @@
 _id: req_080c0d016ca948f984cd1de8cfdc5e91
 type: Request
 parentId: fld_a3433cc62fdc4941bb4dc47d78df7c0c
-modified: 1636958578264
+modified: 1637137524688
 created: 1635760649681
 url: https://api.carimontir.com/checkout/check
 name: GET Checkout Validate
@@ -10,17 +10,17 @@ method: GET
 body: {}
 parameters:
   - name: cart_service
-    value: 370,371
+    value: 373,378
     description: ""
     id: pair_0cccde814b8e49aebd2790d13a34a0bb
-    disabled: true
+    disabled: false
   - name: cart_product
-    value: "502"
+    value: 514,515
     description: ""
     id: pair_bac064b23e0b42f79b894cacf26de76a
     disabled: false
   - name: provider_id
-    value: "82"
+    value: "78"
     description: ""
     id: pair_1471b675100a45f599cddc2de26c3d32
   - name: vehicle_id

@@ -1,52 +1,46 @@
-_id: req_714b571c7429462d99546d09168153e0
+_id: req_b729fb042f5c432d8f096374365added
 type: Request
-parentId: fld_d60e10d13962496d8cd5034cfab883be
-modified: 1637132321301
-created: 1637119341115
-url: https://api.carimontir.com/user/address/change
-name: POST Change Address Main
-description: >-2
-      required header "rapdig-signature" and bearer Token
-
-
-  JSON Body Required : 
-
-
-         {
-          'address_id'    => 'required|numeric|exists:user_address,id,user_id,bearer_token_id|bail',
-        }
-
+parentId: fld_90363d9fbb11456681d252be663d87bc
+modified: 1637135964371
+created: 1637135846927
+url: https://api.carimontir.com/user/vehicle/delete
+name: POST Vehicle Delete
+description: |-2
+      required header "rapdig-signature"
+      required header Content-Type: application/json
         
+  JSON Body :
 
-        
+
+      'id'    => 'required|numeric|exists:user_cars,id',
+      
   Error Message : 
 
-
       [
-              'address_id.required'  => 'Wajib memilih alamat',
-              'address_id.numeric'   => 'Format Alamat salah',
-              'address_id.exists'   => 'Alamat tidak tersedia atau telah dihapus',
+          'id.required'   => 'ID kendaraan wajib diisi',
+          'id.numeric'    => 'ID kendaraan hanya bersifat angka',
+          'id.exists'     => 'ID kendaraan salah atau tidak tersedia',
       ]
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"address_id" : 57
+    	"id" : 3
     }
 parameters: []
 headers:
   - name: rapdig-signature
     value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
     description: ""
-    id: pair_14e60a0e73a6413d9157654f6aff4b21
+    id: pair_fbc60212ce454c0fbc4fda5ad1a1ad5b
   - name: Content-Type
     value: application/json
-    id: pair_e3c4e14c8d5647bb81e1cd882c5f607e
+    id: pair_32dc0fda14284041bb8203e83189c606
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUxNTAwMDgsIm5iZiI6MTYzNTE1MDAwOCwianRpIjoiaVBXV3M1ZDFqajg1Y2tKVyIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.f17y4lbtF33WqIqCGPeXvVidtKkvyo5a4t-bFvRfz3o
-metaSortKey: -1636397945382.5625
+metaSortKey: -1634238012743
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
