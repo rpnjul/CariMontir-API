@@ -1,7 +1,7 @@
 _id: req_fbaabd8018c649448696f25a7a01a578
 type: Request
 parentId: fld_5acf1c87e2094109a98df87bd4cb396d
-modified: 1633685582877
+modified: 1637220622606
 created: 1633595220312
 url: https://api.carimontir.com/master/dl/model
 name: GET Car Model
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"merk_id" : 1
+    	"merk_id" : 71
     }
 parameters: []
 headers:

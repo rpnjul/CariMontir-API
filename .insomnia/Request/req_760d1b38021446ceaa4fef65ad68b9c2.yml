@@ -1,7 +1,7 @@
 _id: req_760d1b38021446ceaa4fef65ad68b9c2
 type: Request
 parentId: fld_04c2877d98a84d50ade689b7ee6bfe0f
-modified: 1637207182352
+modified: 1637219828959
 created: 1636097234754
 url: https://api.carimontir.com/search?q=dummy&page=1
 name: GET Search
@@ -39,10 +39,14 @@ method: GET
 body: {}
 parameters:
   - name: q
-    value: oli
+    value: Data $(@()$! asd data2.0 asda_sdasd asd-asd asd|asd
     description: ""
     id: pair_0bd9a2e1f543408cb54a26eeaffc6439
     disabled: false
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_cc63522df9b74205a051a8fdd8d6842a
   - name: cat
     value: "5"
     description: ""

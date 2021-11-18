@@ -1,7 +1,7 @@
 _id: req_2e15d064056c49619a63acbf818b5b96
 type: Request
 parentId: fld_5acf1c87e2094109a98df87bd4cb396d
-modified: 1636946270621
+modified: 1637220614162
 created: 1633594514943
 url: https://api.carimontir.com/master/dl/merk
 name: GET Car Merk
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"category_id" : 21
+    	"category_id" : 22
     }
 parameters: []
 headers:

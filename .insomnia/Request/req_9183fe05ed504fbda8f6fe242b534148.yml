@@ -1,7 +1,7 @@
 _id: req_9183fe05ed504fbda8f6fe242b534148
 type: Request
 parentId: fld_90363d9fbb11456681d252be663d87bc
-modified: 1636622211131
+modified: 1637223069699
 created: 1636621384679
 url: https://api.carimontir.com/user/vehicle/add
 name: POST Add Vehicle
@@ -17,7 +17,8 @@ description: >-2
         {
               'name'                  => 'required|string|max:80|bail',
               'description'           => 'nullable|string|max:250|bail',
-              'variant'               => 'required|exists:dat_vehiclevariant,dvv_id|bail'
+              'variant'               => 'required|exists:dat_vehiclevariant,dvv_id|bail',
+              'year'                  => 'required|date_format:Y'
         }
 
         
@@ -29,6 +30,7 @@ description: >-2
               'name.max'              => 'Nama maksimal 80 huruf',
               'variant.required'      => 'Varian kendaraan wajib dipilih',
               'variant.exists'        => 'Varian kendaraan tidak ditemukan',
+              'year.date_format'      => 'Format Tahun salah'
       }
 method: POST
 body:

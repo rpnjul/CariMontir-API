@@ -1,7 +1,7 @@
 _id: req_6d8f4440c11547cb9a606d5ec58fcc6e
 type: Request
 parentId: fld_04c2877d98a84d50ade689b7ee6bfe0f
-modified: 1637206828458
+modified: 1637210365875
 created: 1636427997807
 url: https://api.carimontir.com/search/service
 name: GET Search Service
@@ -39,53 +39,61 @@ description: >-2
             1. Home Service
         }
 method: GET
-body:
-  mimeType: application/json
-  text: |-
-    {
-    	"q" : "Ganti Oli._'123"
-    }
+body: {}
 parameters:
   - name: q
-    value: o
+    value: Data.
     description: ""
     id: pair_985a8234205648b98a873dc221854bbb
+    disabled: false
   - name: cat
-    value: "1"
+    value: "null"
     description: ""
     id: pair_a332e3cce66a43758ee7ac27a1f077f2
+    disabled: false
   - name: state
-    value: ""
+    value: "null"
     description: ""
     id: pair_9ab473a4a100426c85603cb55869e057
+    disabled: false
   - name: pmin
-    value: ""
+    value: "300000"
     description: ""
     id: pair_3861fa604cf24cb2a5215457220ce985
+    disabled: false
   - name: pmax
-    value: ""
+    value: "1000000"
     description: ""
     id: pair_b5eef9f068c94a61bd9d11bfc437243b
+    disabled: false
   - name: order
-    value: ""
+    value: "null"
     description: ""
     id: pair_2583bda4ae744306aefe5acacfd008c3
+    disabled: false
   - name: type
-    value: "1"
+    value: "null"
     description: ""
     id: pair_81ed5fda0ed64cf3898758afa1c3d07e
+    disabled: false
   - name: vtype
-    value: 21,22
+    value: "22"
     description: ""
     id: pair_ea150bae0dec46559bd21e7b708b0046
+    disabled: false
+  - name: page
+    value: "1"
+    description: ""
+    id: pair_7d268d34499b42449089d977fd44e945
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_5e57ce21529e45b2b7274907d0f3d623
 headers:
   - name: rapdig-signature
     value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
     description: ""
     id: pair_aec97a9b495a47ef8d9f973700b39862
-  - name: Content-Type
-    value: application/json
-    id: pair_c3f34c8652ee40eca6c7fd2b899a8ab3
 authentication: {}
 metaSortKey: -1636006168026
 isPrivate: false
