@@ -1,7 +1,7 @@
 _id: req_6d8f4440c11547cb9a606d5ec58fcc6e
 type: Request
 parentId: fld_04c2877d98a84d50ade689b7ee6bfe0f
-modified: 1637210365875
+modified: 1637289678470
 created: 1636427997807
 url: https://api.carimontir.com/search/service
 name: GET Search Service
@@ -14,7 +14,7 @@ description: >-2
         {
           'q'             => 'required|regex:/^[a-z\d\-_\s]+$/i|bail',
           'cat'           => 'nullable|bail',
-          'state'         => 'nullable|bail',
+          'city'         => 'nullable|bail',
           'pmin'          => 'nullable|bail',
           'pmax'          => 'nullable|bail',
           'order'         => 'nullable|in:1,2,3,4|bail',
@@ -23,7 +23,7 @@ description: >-2
         }
         
         Param "cat" FROM API "https://api.carimontir.com/master/service-type"
-        Param "state" FROM API "https://api.carimontir.com/master/address/state/indonesia"
+        Param "city" FROM API "https://api.carimontir.com/master/address/city/id"
         Param "vtype" FROM API "https://api.carimontir.com/master/dl/category"
         Param "order" Just In 1 OR 2 OR 3 OR 4 With Condition {
         
@@ -42,7 +42,7 @@ method: GET
 body: {}
 parameters:
   - name: q
-    value: Data.
+    value: Data
     description: ""
     id: pair_985a8234205648b98a873dc221854bbb
     disabled: false
@@ -51,8 +51,8 @@ parameters:
     description: ""
     id: pair_a332e3cce66a43758ee7ac27a1f077f2
     disabled: false
-  - name: state
-    value: "null"
+  - name: city
+    value: "21497"
     description: ""
     id: pair_9ab473a4a100426c85603cb55869e057
     disabled: false
@@ -85,10 +85,6 @@ parameters:
     value: "1"
     description: ""
     id: pair_7d268d34499b42449089d977fd44e945
-  - name: ""
-    value: ""
-    description: ""
-    id: pair_5e57ce21529e45b2b7274907d0f3d623
 headers:
   - name: rapdig-signature
     value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK

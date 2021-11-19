@@ -1,7 +1,7 @@
 _id: req_760d1b38021446ceaa4fef65ad68b9c2
 type: Request
 parentId: fld_04c2877d98a84d50ade689b7ee6bfe0f
-modified: 1637219828959
+modified: 1637289503486
 created: 1636097234754
 url: https://api.carimontir.com/search?q=dummy&page=1
 name: GET Search
@@ -14,15 +14,15 @@ description: >-2
         {
           'q'             => 'required|regex:/^[a-z\d\-_\s]+$/i|bail',
           'cat'           => 'nullable|bail',
-          'state'         => 'nullable|bail',
+          'city'          => 'nullable|bail',
           'pmin'          => 'nullable|bail',
           'pmax'          => 'nullable|bail',
           'order'         => 'nullable|in:1,2,3,4|bail',
-          'type'         =>  'nullable|in:0,1|bail'
+          'type'          =>  'nullable|in:0,1|bail'
         }
         
         Param "cat" FROM API "https://api.carimontir.com/master/category"
-        Param "state" FROM API "https://api.carimontir.com/master/address/state/indonesia"
+        Param "city" FROM API "https://api.carimontir.com/master/address/city/id"
         Param "order" Just In 1 OR 2 OR 3 OR 4 With Condition {
             1. Harga rendah ke tinggi
             2. Harga tinggi ke rendah
@@ -39,7 +39,7 @@ method: GET
 body: {}
 parameters:
   - name: q
-    value: Data $(@()$! asd data2.0 asda_sdasd asd-asd asd|asd
+    value: Data dummy
     description: ""
     id: pair_0bd9a2e1f543408cb54a26eeaffc6439
     disabled: false
@@ -52,11 +52,11 @@ parameters:
     description: ""
     id: pair_8ce6c25289dd49ca891eb6fe8cec3318
     disabled: false
-  - name: state
-    value: "1673"
+  - name: city
+    value: "21497"
     description: ""
     id: pair_3f299a0c5eaa47c1a9731738dfa7a6cb
-    disabled: true
+    disabled: false
   - name: pmin
     value: "10000"
     description: ""

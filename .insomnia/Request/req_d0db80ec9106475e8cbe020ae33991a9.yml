@@ -1,11 +1,35 @@
 _id: req_d0db80ec9106475e8cbe020ae33991a9
 type: Request
 parentId: fld_04c2877d98a84d50ade689b7ee6bfe0f
-modified: 1637210482388
+modified: 1637229645863
 created: 1636428041950
 url: https://api.carimontir.com/search/provider
 name: GET Search Provider
-description: ""
+description: >-2
+      required header "rapdig-signature"
+
+
+  Required Query Parameter :
+
+        {
+          'q'             => 'required|regex:/^[a-z\d\-_\s]+$/i|bail',
+          'city'         => 'nullable|bail',
+          'order'         => 'nullable|in:1,2,3,4|bail',
+          'type'          =>  'nullable|in:0,1|bail',
+        }
+        
+        Param "city" FROM API "https://api.carimontir.com/master/address/city/id"
+        Param "order" Just In 1 OR 2 OR 3 OR 4 With Condition {
+        
+            1. Name A to Z
+            2. Name Z to A
+
+            Default (Name A to Z) 
+        }
+        Param "type" Just In 0 OR 1 With Condition {
+            0. Service Dibengkel
+            1. Home Service
+        }
 method: GET
 body: {}
 parameters:
@@ -14,6 +38,14 @@ parameters:
     description: ""
     id: pair_6ef5e8c6603745e9a96567fd7b4b4954
     disabled: false
+  - name: type
+    value: "1"
+    description: ""
+    id: pair_fb4a5b7b4357491aa21bfdba7a023f9d
+  - name: city
+    value: "21497"
+    description: ""
+    id: pair_970710b38ec14927a60ada93ec484434
 headers:
   - name: rapdig-signature
     value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK

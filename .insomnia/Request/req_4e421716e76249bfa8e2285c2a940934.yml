@@ -1,0 +1,35 @@
+_id: req_4e421716e76249bfa8e2285c2a940934
+type: Request
+parentId: fld_b93df8d9bf6d43e5ae44a28567e27b54
+modified: 1637228284596
+created: 1637228136960
+url: https://api.carimontir.com/master/address/city/id
+name: GET Data City Indonesia
+description: |-2
+      required header "rapdig-signature"
+      
+      
+  BODY RULE
+
+      {NULL}
+      
+  Message Rule
+
+      {NULL}
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_e9a37d0387dc4cf9a31fe84ff977ad84
+authentication: {}
+metaSortKey: -1633463296564.4688
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

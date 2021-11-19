@@ -1,0 +1,47 @@
+_id: req_86df5e632baa4b35ae3df3e5074c32a7
+type: Request
+parentId: fld_04c2877d98a84d50ade689b7ee6bfe0f
+modified: 1637294173713
+created: 1637291491921
+url: https://api.carimontir.com/search/check
+name: GET Search Check
+description: "    required header \"rapdig-signature\"
+
+
+
+  Required Query Parameter :
+
+
+  \      {
+
+  \        'q'             => 'required|regex:/^[a-z\\d\\-_\\s]+$/i|bail',
+
+  \       \ 
+
+  \      }
+
+  \     \ 
+
+  \      "
+method: GET
+body: {}
+parameters:
+  - name: q
+    value: oli
+    description: ""
+    id: pair_0bd9a2e1f543408cb54a26eeaffc6439
+    disabled: false
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_aec97a9b495a47ef8d9f973700b39862
+authentication: {}
+metaSortKey: -1636074468114
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
