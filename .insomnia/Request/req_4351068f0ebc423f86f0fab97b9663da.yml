@@ -1,10 +1,10 @@
-_id: req_3b7dc596745f46ac82ced6a23e05b161
+_id: req_4351068f0ebc423f86f0fab97b9663da
 type: Request
 parentId: fld_475d5a7cdfe249fe89d8ebc139b318b1
-modified: 1637640668800
-created: 1635229612187
-url: https://api.carimontir.com/providers
-name: "GET ALL "
+modified: 1637640660014
+created: 1637637024817
+url: https://api.carimontir.com/providers/82/services
+name: GET Services
 description: '    required header "rapdig-signature"'
 method: GET
 body: {}
@@ -15,7 +15,7 @@ headers:
     description: ""
     id: pair_b36e53d5d4994a4ead0babbecdd58050
 authentication: {}
-metaSortKey: -1635229612187
+metaSortKey: -1634940582796
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

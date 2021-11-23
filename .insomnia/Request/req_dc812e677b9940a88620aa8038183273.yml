@@ -1,11 +1,11 @@
 _id: req_dc812e677b9940a88620aa8038183273
 type: Request
 parentId: fld_475d5a7cdfe249fe89d8ebc139b318b1
-modified: 1636711046920
+modified: 1637640665982
 created: 1636711042997
 url: https://api.carimontir.com/providers/82
-name: GET Provider By ID
-description: ""
+name: GET  By ID
+description: '    required header "rapdig-signature"'
 method: GET
 body: {}
 parameters: []

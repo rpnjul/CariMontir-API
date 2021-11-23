@@ -1,0 +1,41 @@
+_id: req_a96c8d9ff1c842d58da8bdfbb25fd2bd
+type: Request
+parentId: fld_0944a10582bb4d89b41b03996497bbfa
+modified: 1637319267953
+created: 1637318752399
+url: https://ipqualityscore.com/api/json/ip/wDomHKvBUKaNB0n1mZhnOlAExDKlM3RL/66.249.71.223
+name: IP Checker
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: strictness
+    value: "0"
+    description: ""
+    id: pair_0340c4579f4b451e99b21f9b5040a53e
+  - name: allow_public_access_points
+    value: "true"
+    description: ""
+    id: pair_e8a0890222f2403c965781f8bc258885
+  - name: fast
+    value: "true"
+    description: ""
+    id: pair_16254d7fcb67424d96cc7a3ed500d805
+  - name: lighter_penalties
+    value: "true"
+    description: ""
+    id: pair_4f23492c227f40fbb00e0dc7fb87b220
+  - name: mobile
+    value: "true"
+    description: ""
+    id: pair_83f7857179de4953bb847b1235ff2dc9
+headers: []
+authentication: {}
+metaSortKey: -1637318752399
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

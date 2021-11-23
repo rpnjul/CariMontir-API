@@ -1,0 +1,35 @@
+_id: req_f2b9837970664878a18437bc69a8db1c
+type: Request
+parentId: fld_50e31e8f757349de968a8efce38a2f4b
+modified: 1637309889602
+created: 1637302664814
+url: https://api.carimontir.com/user/review/0
+name: GET Reviews
+description: |-2
+      required header "rapdig-signature"
+      
+      
+  URI :
+
+      https://api.carimontir.com/user/review/{param}
+      param : 0 => Belum Diulas
+              1 => Sudah Diulas
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_c2b302610f8e4f7e94c3a473678c4bb5
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUxNTAwMDgsIm5iZiI6MTYzNTE1MDAwOCwianRpIjoiaVBXV3M1ZDFqajg1Y2tKVyIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.f17y4lbtF33WqIqCGPeXvVidtKkvyo5a4t-bFvRfz3o
+metaSortKey: -1637302664814
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

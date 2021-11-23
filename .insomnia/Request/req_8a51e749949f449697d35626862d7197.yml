@@ -1,0 +1,71 @@
+_id: req_8a51e749949f449697d35626862d7197
+type: Request
+parentId: fld_50e31e8f757349de968a8efce38a2f4b
+modified: 1637317193972
+created: 1637309519406
+url: https://api.carimontir.com/user/review/add
+name: POST Reviews
+description: |+2
+      required header "rapdig-signature"
+      
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: product_id
+      value: "89"
+      description: ""
+      id: pair_8e2d962297e241708c6b448135a76e58
+    - name: order_id
+      value: "2"
+      description: ""
+      id: pair_a218a55effb4434a8b32e27974898674
+    - name: message
+      value: Mantap
+      description: ""
+      id: pair_24d66e1e2f9f42bc944d90173444e546
+    - name: suggestion
+      value: 1,2,3
+      description: ""
+      id: pair_dc6c608dcd62488b82de2da9d13b0756
+    - name: photo[]
+      value: ""
+      description: ""
+      id: pair_03917bb13d06433fa2de8505ae1b4d2e
+      type: file
+      fileName: C:\Users\rekapdigi\Pictures\logo\BANTUBELI\index.jpg
+      disabled: false
+    - name: photo[]
+      value: ""
+      description: ""
+      id: pair_3ba044c713d4476aa8d7852d75e44f9e
+      type: file
+      fileName: C:\Users\rekapdigi\Documents\#Laporan Kerja\Laporan harian karyawan
+        Satria Aprilian 18112021.pdf
+    - name: photo[]
+      value: ""
+      description: ""
+      id: pair_f54b64d9e02c4628ad8512620519e15c
+      type: file
+      fileName: C:\Users\rekapdigi\Pictures\logo\BANTUBELI\Pil Logo Bantu Beli-04.png
+      disabled: false
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_c2b302610f8e4f7e94c3a473678c4bb5
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_8432bf2bbb354da6baf9ec5d7f515742
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUxNTAwMDgsIm5iZiI6MTYzNTE1MDAwOCwianRpIjoiaVBXV3M1ZDFqajg1Y2tKVyIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.f17y4lbtF33WqIqCGPeXvVidtKkvyo5a4t-bFvRfz3o
+metaSortKey: -1636960107825
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

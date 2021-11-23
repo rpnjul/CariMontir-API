@@ -1,0 +1,29 @@
+_id: req_595bd998b08f4404b0fdc5c4c03f2797
+type: Request
+parentId: fld_0944a10582bb4d89b41b03996497bbfa
+modified: 1637319322605
+created: 1637318936487
+url: https://api.ipgeolocation.io/ipgeo
+name: IP GEO
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: apiKey
+    value: 2200dc1399e54131bef08116e4581e8a
+    description: ""
+    id: pair_b7990779565444ac8e34fac37693c940
+  - name: ip
+    value: 66.249.71.223
+    description: ""
+    id: pair_25ee51ee0f1e424ab2f51fe0f29db23a
+headers: []
+authentication: {}
+metaSortKey: -1637318936487
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
