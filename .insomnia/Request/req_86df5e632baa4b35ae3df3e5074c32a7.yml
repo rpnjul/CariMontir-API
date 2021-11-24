@@ -1,7 +1,7 @@
 _id: req_86df5e632baa4b35ae3df3e5074c32a7
 type: Request
 parentId: fld_04c2877d98a84d50ade689b7ee6bfe0f
-modified: 1637307150454
+modified: 1637724090559
 created: 1637291491921
 url: https://api.carimontir.com/search/check
 name: GET Search Check
@@ -27,7 +27,7 @@ method: GET
 body: {}
 parameters:
   - name: q
-    value: dummy
+    value: dataa
     description: ""
     id: pair_0bd9a2e1f543408cb54a26eeaffc6439
     disabled: false

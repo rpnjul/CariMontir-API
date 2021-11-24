@@ -1,7 +1,7 @@
 _id: req_b94028f7cb7e4471b5d2c8cbcd583934
 type: Request
 parentId: fld_475d5a7cdfe249fe89d8ebc139b318b1
-modified: 1637650474528
+modified: 1637729284463
 created: 1637640550616
 url: "    https://api.carimontir.com/providers/82/search/product"
 name: GET Search Products
@@ -23,9 +23,25 @@ method: GET
 body: {}
 parameters:
   - name: q
-    value: oli
+    value: dummy
     description: ""
     id: pair_b19e7570d1004485bc74501fc46e53c3
+  - name: cat
+    value: "null"
+    description: ""
+    id: pair_3e8fa54129104bd4ac7e456b7e2985b9
+  - name: pmin
+    value: "50000"
+    description: ""
+    id: pair_9752525fb4dd45a8bab131ba026bdf7e
+  - name: pmax
+    value: "50000"
+    description: ""
+    id: pair_84d9ffe645e94d0baa2293c0307c9ce9
+  - name: order
+    value: "null"
+    description: ""
+    id: pair_a78d7af49ba64d51887b4b8cc013479a
 headers:
   - name: rapdig-signature
     value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK

@@ -1,7 +1,7 @@
 _id: req_76e96fc4eec84c2086f6f20529418cdb
 type: Request
 parentId: fld_475d5a7cdfe249fe89d8ebc139b318b1
-modified: 1637651903341
+modified: 1637737281675
 created: 1637650459501
 url: "    https://api.carimontir.com/providers/82/search/service"
 name: GET Search Services
@@ -24,9 +24,29 @@ method: GET
 body: {}
 parameters:
   - name: q
-    value: oli
+    value: dummy
     description: ""
     id: pair_b19e7570d1004485bc74501fc46e53c3
+    disabled: false
+  - name: cat
+    value: "null"
+    description: ""
+    id: pair_8a02240bf08c463b8433de23f9b19769
+    disabled: false
+  - name: pmin
+    value: "200000"
+    description: ""
+    id: pair_2ea36aa280b447f6ad7eaca2c7e4018c
+    disabled: true
+  - name: pmax
+    value: "500000"
+    description: ""
+    id: pair_fe5346a2ad6a4f10ac929956992847d6
+    disabled: false
+  - name: order
+    value: "1"
+    description: ""
+    id: pair_4055006cb4b848f2acdbbe85d1758bef
     disabled: false
 headers:
   - name: rapdig-signature
