@@ -1,7 +1,7 @@
 _id: req_760d1b38021446ceaa4fef65ad68b9c2
 type: Request
 parentId: fld_04c2877d98a84d50ade689b7ee6bfe0f
-modified: 1637289503486
+modified: 1637811749714
 created: 1636097234754
 url: https://api.carimontir.com/search?q=dummy&page=1
 name: GET Search
@@ -61,12 +61,12 @@ parameters:
     value: "10000"
     description: ""
     id: pair_8147074b1b734c40bd976718c5f341eb
-    disabled: true
+    disabled: false
   - name: pmax
-    value: "100000"
+    value: "10000"
     description: ""
     id: pair_756b6f49350f44cb999e4202eb2b4374
-    disabled: true
+    disabled: false
   - name: order
     value: "4"
     description: ""

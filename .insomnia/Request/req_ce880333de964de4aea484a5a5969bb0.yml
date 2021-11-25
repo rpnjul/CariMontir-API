@@ -1,7 +1,7 @@
 _id: req_ce880333de964de4aea484a5a5969bb0
 type: Request
 parentId: fld_a3433cc62fdc4941bb4dc47d78df7c0c
-modified: 1637137500081
+modified: 1637825206501
 created: 1634797289980
 url: https://api.carimontir.com/checkout
 name: GET Checkout
@@ -38,7 +38,7 @@ parameters:
     id: pair_adc1c0d1ef8b450cbf95decf0c7ddfd8
     disabled: false
   - name: cart_product
-    value: 514,515
+    value: "771"
     description: ""
     id: pair_54f9147c4be54b6bb9c0b7f693bb5e90
     disabled: false

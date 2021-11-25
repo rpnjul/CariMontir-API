@@ -1,7 +1,7 @@
 _id: req_6d8f4440c11547cb9a606d5ec58fcc6e
 type: Request
 parentId: fld_04c2877d98a84d50ade689b7ee6bfe0f
-modified: 1637661583982
+modified: 1637811922868
 created: 1636427997807
 url: https://api.carimontir.com/search/service
 name: GET Search Service
@@ -62,10 +62,10 @@ parameters:
     id: pair_3861fa604cf24cb2a5215457220ce985
     disabled: true
   - name: pmax
-    value: "1000000"
+    value: "10000"
     description: ""
     id: pair_b5eef9f068c94a61bd9d11bfc437243b
-    disabled: true
+    disabled: false
   - name: order
     value: "null"
     description: ""

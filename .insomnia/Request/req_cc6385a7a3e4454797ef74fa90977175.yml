@@ -1,0 +1,39 @@
+_id: req_cc6385a7a3e4454797ef74fa90977175
+type: Request
+parentId: fld_04c2877d98a84d50ade689b7ee6bfe0f
+modified: 1637827811157
+created: 1637813195176
+url: https://api.carimontir.com/search/suggestion
+name: GET Search Suggestion
+description: |+2
+      required header "rapdig-signature"
+
+
+  Required Query Parameter :
+
+        {
+          'q'             => 'required|regex:/^[a-z\d\-_\s]+$/i|bail',
+        }
+        
+method: GET
+body: {}
+parameters:
+  - name: q
+    value: konsultasi
+    description: ""
+    id: pair_0bd9a2e1f543408cb54a26eeaffc6439
+    disabled: false
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_aec97a9b495a47ef8d9f973700b39862
+authentication: {}
+metaSortKey: -1636085851462
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

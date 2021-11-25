@@ -1,9 +1,9 @@
 _id: req_339906e43cfc4bbdb4621fbcc408b0f9
 type: Request
 parentId: fld_816468a5974e47e691bed9b6d7011b91
-modified: 1637737439933
+modified: 1637836958800
 created: 1637120009172
-url: https://api.carimontir.com/user/orders/detail/32
+url: https://api.carimontir.com/user/orders/detail/93
 name: GET Order detail
 description: |-2
       required header "rapdig-signature"
@@ -33,7 +33,7 @@ headers:
     id: pair_8ab36aafe53a4a3d9ddef67ab1b95889
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUxNTAwMDgsIm5iZiI6MTYzNTE1MDAwOCwianRpIjoiaVBXV3M1ZDFqajg1Y2tKVyIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.f17y4lbtF33WqIqCGPeXvVidtKkvyo5a4t-bFvRfz3o
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2Mzc4MDk5NjcsIm5iZiI6MTYzNzgwOTk2NywianRpIjoiZkZwOGJLRHN2UzFWbnp2QSIsInN1YiI6MjA5LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.cJyh6OTcQdF7UEVRuphrHPUjvDYihxW6FC9Rzkfpksw
 metaSortKey: -1635915094416.5
 isPrivate: false
 settingStoreCookies: true
