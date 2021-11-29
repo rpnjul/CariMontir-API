@@ -1,7 +1,7 @@
 _id: req_12a5eea767ce4f29a73b3bc5ea2d0668
 type: Request
 parentId: fld_a3433cc62fdc4941bb4dc47d78df7c0c
-modified: 1638167195228
+modified: 1638181428802
 created: 1636438108298
 url: https://api.carimontir.com/checkout
 name: POST Checkout
@@ -66,7 +66,7 @@ headers:
     id: pair_5d30f0b112944c0a819d8506a226e23c
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzgxNjYzMTAsIm5iZiI6MTYzODE2NjMxMCwianRpIjoiYmZxS2cyMlpMTDBBckRZZCIsInN1YiI6MjA5LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.3zLFxiIETL56po64o9qcvDq-LJSVv3WlpxNlfPulS9Q
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzgxODA5NjcsIm5iZiI6MTYzODE4MDk2NywianRpIjoid21uSEFMS3FhRWpibVRISCIsInN1YiI6MjA5LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.HuKjXtN08h9eGigeaHFYvQfxUvRTfgxpLQYsULO95uA
 metaSortKey: -1634021668800
 isPrivate: false
 settingStoreCookies: true
