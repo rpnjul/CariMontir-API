@@ -1,7 +1,7 @@
 _id: req_86df5e632baa4b35ae3df3e5074c32a7
 type: Request
 parentId: fld_04c2877d98a84d50ade689b7ee6bfe0f
-modified: 1638158899427
+modified: 1638161414452
 created: 1637291491921
 url: https://api.carimontir.com/search/check
 name: GET Search Check
@@ -15,8 +15,6 @@ description: "    required header \"rapdig-signature\"
   \      {
 
   \        'q'             => 'required|regex:/^[a-z\\d\\-_\\s]+$/i|bail',
-
-  \       \ 
 
   \      }
 

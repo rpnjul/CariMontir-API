@@ -1,7 +1,7 @@
 _id: req_760d1b38021446ceaa4fef65ad68b9c2
 type: Request
 parentId: fld_04c2877d98a84d50ade689b7ee6bfe0f
-modified: 1638158903531
+modified: 1638161570305
 created: 1636097234754
 url: https://api.carimontir.com/search
 name: GET Search
@@ -18,7 +18,8 @@ description: >-2
           'pmin'          => 'nullable|bail',
           'pmax'          => 'nullable|bail',
           'order'         => 'nullable|in:1,2,3,4|bail',
-          'type'          =>  'nullable|in:0,1|bail'
+          'type'          =>  'nullable|in:0,1|bail',
+          'cond'          => 'nullable|in:0,1|bail'
         }
         
         Param "cat" FROM API "https://api.carimontir.com/master/category"

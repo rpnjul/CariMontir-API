@@ -1,7 +1,7 @@
 _id: req_b94028f7cb7e4471b5d2c8cbcd583934
 type: Request
 parentId: fld_475d5a7cdfe249fe89d8ebc139b318b1
-modified: 1637729284463
+modified: 1638161714402
 created: 1637640550616
 url: "    https://api.carimontir.com/providers/82/search/product"
 name: GET Search Products
@@ -17,6 +17,7 @@ description: |-2
         'cat'           => 'nullable|bail',
         'pmin'          => 'nullable|bail',
         'pmax'          => 'nullable|bail',
+        'cond'          => 'nullable|in:0,1|bail',
         'order'         => 'nullable|in:1,2,3,4|bail',
       }
 method: GET

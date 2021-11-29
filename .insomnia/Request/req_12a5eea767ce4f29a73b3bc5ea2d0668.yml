@@ -1,7 +1,7 @@
 _id: req_12a5eea767ce4f29a73b3bc5ea2d0668
 type: Request
 parentId: fld_a3433cc62fdc4941bb4dc47d78df7c0c
-modified: 1637825241595
+modified: 1638167195228
 created: 1636438108298
 url: https://api.carimontir.com/checkout
 name: POST Checkout
@@ -34,25 +34,25 @@ body:
   mimeType: application/json
   text: |-
     {
-       "cproducts": [
+       "cproducts":[
+          
+       ],
+       "cservices":[
           {
-             "id": 771,
-             "is_install": true,
-             "is_location": true
+             "id":652,
+             "is_location":true
+          },
+          {
+             "id":672,
+             "is_location":true
           }
        ],
-       "cservices": [
-          {
-    				 "id" : 373,
-    				 "is_location" : true
-    			}
-       ],
-    	 "provider_id" : 78,
-       "payment_id" : 9,
-    	 "vehicle_id" : 2,
-       "address_id" : 19,
-    	 "book_date" : "26-11-2021",
-    	 "book_time" : "01:00 PM - 03:00 PM"
+       "provider_id":78,
+       "payment_id":7,
+       "vehicle_id":27,
+       "address_id":70,
+       "book_date":"30-11-2021",
+       "book_time":"01:00 PM - 02:00 PM"
     }
 parameters: []
 headers:
@@ -66,7 +66,7 @@ headers:
     id: pair_5d30f0b112944c0a819d8506a226e23c
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUxNTAwMDgsIm5iZiI6MTYzNTE1MDAwOCwianRpIjoiaVBXV3M1ZDFqajg1Y2tKVyIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.f17y4lbtF33WqIqCGPeXvVidtKkvyo5a4t-bFvRfz3o
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzgxNjYzMTAsIm5iZiI6MTYzODE2NjMxMCwianRpIjoiYmZxS2cyMlpMTDBBckRZZCIsInN1YiI6MjA5LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.3zLFxiIETL56po64o9qcvDq-LJSVv3WlpxNlfPulS9Q
 metaSortKey: -1634021668800
 isPrivate: false
 settingStoreCookies: true

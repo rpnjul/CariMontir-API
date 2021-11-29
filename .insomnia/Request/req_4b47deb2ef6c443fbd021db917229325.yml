@@ -1,7 +1,7 @@
 _id: req_4b47deb2ef6c443fbd021db917229325
 type: Request
 parentId: fld_45041927ad9a41feacf68edb9881bda9
-modified: 1637737663943
+modified: 1638171597334
 created: 1636961335197
 url: https://api.carimontir.com/user/pay
 name: GET Pay
@@ -19,7 +19,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"order_id" : "TR-619db335d7590"
+    	"order_id" : "TR-61a47b14c32641638169364"
     }
 parameters: []
 headers:
@@ -32,7 +32,7 @@ headers:
     id: pair_a546fd9d70d247e6aaab2a7ef118bfd1
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUxNTAwMDgsIm5iZiI6MTYzNTE1MDAwOCwianRpIjoiaVBXV3M1ZDFqajg1Y2tKVyIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.f17y4lbtF33WqIqCGPeXvVidtKkvyo5a4t-bFvRfz3o
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzgxNjYzMTAsIm5iZiI6MTYzODE2NjMxMCwianRpIjoiYmZxS2cyMlpMTDBBckRZZCIsInN1YiI6MjA5LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.3zLFxiIETL56po64o9qcvDq-LJSVv3WlpxNlfPulS9Q
 metaSortKey: -1634021668931.25
 isPrivate: false
 settingStoreCookies: true
