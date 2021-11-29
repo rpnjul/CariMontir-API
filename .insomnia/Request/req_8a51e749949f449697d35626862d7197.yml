@@ -1,7 +1,7 @@
 _id: req_8a51e749949f449697d35626862d7197
 type: Request
 parentId: fld_50e31e8f757349de968a8efce38a2f4b
-modified: 1638153995842
+modified: 1638160016769
 created: 1637309519406
 url: https://api.carimontir.com/user/review/add
 name: POST Reviews
@@ -22,6 +22,10 @@ method: POST
 body:
   mimeType: multipart/form-data
   params:
+    - name: rate
+      value: "2"
+      description: ""
+      id: pair_d61538ac4a2440bcb925da7d82423efe
     - name: product_id
       value: "89"
       description: ""
@@ -44,7 +48,7 @@ body:
       id: pair_03917bb13d06433fa2de8505ae1b4d2e
       type: file
       fileName: C:\Users\rekapdigi\Pictures\logo\BANTUBELI\index.jpg
-      disabled: false
+      disabled: true
     - name: photo[]
       value: ""
       description: ""
@@ -52,13 +56,14 @@ body:
       type: file
       fileName: C:\Users\rekapdigi\Documents\#Laporan Kerja\Laporan harian karyawan
         Satria Aprilian 18112021.pdf
+      disabled: true
     - name: photo[]
       value: ""
       description: ""
       id: pair_f54b64d9e02c4628ad8512620519e15c
       type: file
       fileName: C:\Users\rekapdigi\Pictures\logo\BANTUBELI\Pil Logo Bantu Beli-04.png
-      disabled: false
+      disabled: true
 parameters: []
 headers:
   - name: rapdig-signature
