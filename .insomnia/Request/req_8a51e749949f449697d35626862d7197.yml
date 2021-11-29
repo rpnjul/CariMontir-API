@@ -1,13 +1,23 @@
 _id: req_8a51e749949f449697d35626862d7197
 type: Request
 parentId: fld_50e31e8f757349de968a8efce38a2f4b
-modified: 1637317193972
+modified: 1638153995842
 created: 1637309519406
 url: https://api.carimontir.com/user/review/add
 name: POST Reviews
-description: |+2
+description: |-2
       required header "rapdig-signature"
-      
+
+
+
+  Require Form Data 
+
+      'product_id'    => 'required|exists:products,id',
+      'order_id'      => 'required|exists:orders,id',
+      'message'       => 'nullable|string|max:255',
+      'rate'          => 'required|numeric|in:1,2,3,4,5',
+      'suggestion'    => 'nullable',
+      'photo'         => 'nullable|can_be_send_array_images'
 method: POST
 body:
   mimeType: multipart/form-data

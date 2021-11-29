@@ -1,7 +1,7 @@
 _id: req_d0db80ec9106475e8cbe020ae33991a9
 type: Request
 parentId: fld_04c2877d98a84d50ade689b7ee6bfe0f
-modified: 1637229645863
+modified: 1638159125917
 created: 1636428041950
 url: https://api.carimontir.com/search/provider
 name: GET Search Provider
@@ -34,7 +34,7 @@ method: GET
 body: {}
 parameters:
   - name: q
-    value: bengkel jejel
+    value: "Kategori: Audio & Video Mobil"
     description: ""
     id: pair_6ef5e8c6603745e9a96567fd7b4b4954
     disabled: false

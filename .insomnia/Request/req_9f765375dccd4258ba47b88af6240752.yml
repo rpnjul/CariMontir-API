@@ -1,11 +1,20 @@
 _id: req_9f765375dccd4258ba47b88af6240752
 type: Request
 parentId: fld_45041927ad9a41feacf68edb9881bda9
-modified: 1637745531363
+modified: 1638154421907
 created: 1637743059784
 url: https://api.carimontir.com/user/lastseen/post
 name: POST Last Item seen
-description: ""
+description: |-
+  Require header "rapdig-signature"
+
+
+  Require Body Json : 
+
+        {
+          "item_id" : 709,
+          "type"	: 0
+        }
 method: POST
 body:
   mimeType: application/json

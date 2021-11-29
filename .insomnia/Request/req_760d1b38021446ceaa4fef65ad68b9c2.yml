@@ -1,9 +1,9 @@
 _id: req_760d1b38021446ceaa4fef65ad68b9c2
 type: Request
 parentId: fld_04c2877d98a84d50ade689b7ee6bfe0f
-modified: 1637811749714
+modified: 1638158903531
 created: 1636097234754
-url: https://api.carimontir.com/search?q=dummy&page=1
+url: https://api.carimontir.com/search
 name: GET Search
 description: >-2
       required header "rapdig-signature"
@@ -39,7 +39,7 @@ method: GET
 body: {}
 parameters:
   - name: q
-    value: Data dummy
+    value: "Kategori: Audio & Video Mobil"
     description: ""
     id: pair_0bd9a2e1f543408cb54a26eeaffc6439
     disabled: false

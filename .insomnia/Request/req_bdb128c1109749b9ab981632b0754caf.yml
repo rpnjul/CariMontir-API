@@ -1,10 +1,10 @@
-_id: req_f2b9837970664878a18437bc69a8db1c
+_id: req_bdb128c1109749b9ab981632b0754caf
 type: Request
 parentId: fld_50e31e8f757349de968a8efce38a2f4b
-modified: 1638154224556
-created: 1637302664814
-url: https://api.carimontir.com/user/review/0
-name: GET Reviews
+modified: 1638154147501
+created: 1638154025824
+url: https://api.carimontir.com/user/review/suggestion
+name: GET Suggestion Rate
 description: |-2
       required header "rapdig-signature"
       
@@ -14,7 +14,6 @@ description: |-2
       https://api.carimontir.com/user/review/{param}
       param : 0 => Belum Diulas
               1 => Sudah Diulas
-      example : "https://api.carimontir.com/user/review/0"
 method: GET
 body: {}
 parameters: []
@@ -26,7 +25,7 @@ headers:
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUxNTAwMDgsIm5iZiI6MTYzNTE1MDAwOCwianRpIjoiaVBXV3M1ZDFqajg1Y2tKVyIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.f17y4lbtF33WqIqCGPeXvVidtKkvyo5a4t-bFvRfz3o
-metaSortKey: -1637302664814
+metaSortKey: -1637131386319.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

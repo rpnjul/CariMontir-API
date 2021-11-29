@@ -1,7 +1,7 @@
 _id: req_6d8f4440c11547cb9a606d5ec58fcc6e
 type: Request
 parentId: fld_04c2877d98a84d50ade689b7ee6bfe0f
-modified: 1637811922868
+modified: 1638159304510
 created: 1636427997807
 url: https://api.carimontir.com/search/service
 name: GET Search Service
@@ -42,10 +42,14 @@ method: GET
 body: {}
 parameters:
   - name: q
-    value: "Data "
+    value: "Kategori: Konsultasi"
     description: ""
     id: pair_985a8234205648b98a873dc221854bbb
     disabled: false
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_2f56f05e75e04e8682afb3753bb2e227
   - name: cat
     value: "null"
     description: ""
@@ -65,7 +69,7 @@ parameters:
     value: "10000"
     description: ""
     id: pair_b5eef9f068c94a61bd9d11bfc437243b
-    disabled: false
+    disabled: true
   - name: order
     value: "null"
     description: ""
