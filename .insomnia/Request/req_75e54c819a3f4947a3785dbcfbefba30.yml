@@ -1,7 +1,7 @@
 _id: req_75e54c819a3f4947a3785dbcfbefba30
 type: Request
 parentId: fld_816468a5974e47e691bed9b6d7011b91
-modified: 1638333360506
+modified: 1638350082539
 created: 1635915101242
 url: https://api.carimontir.com/user/orders/
 name: GET Orders
@@ -15,11 +15,11 @@ description: |-2
 
     - pending (Menunggu Pembayaran)
     
-      Order Status : 0 
+      Order Status : 0,1
       
     - waiting (Menunggu Di proses atau menunggu diselesaikan)
     
-      Order Status : 1,4
+      Order Status : 4
     
     - process (Sedang di proses bengkel)
     
