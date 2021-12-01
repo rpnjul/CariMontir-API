@@ -1,0 +1,21 @@
+_id: req_3c791428ee7c4607885ef605c0367518
+type: Request
+parentId: fld_54209047c2cc41628b87babccc42c8cf
+modified: 1638248506767
+created: 1638248491430
+url: https://api.carimontir.com/cron/24aaae93556daaf4b31eeffb2fafdf6f
+name: Cancel Order
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1638248491430
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

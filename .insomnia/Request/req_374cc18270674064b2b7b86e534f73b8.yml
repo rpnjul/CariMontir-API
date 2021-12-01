@@ -1,10 +1,10 @@
-_id: req_75e54c819a3f4947a3785dbcfbefba30
+_id: req_374cc18270674064b2b7b86e534f73b8
 type: Request
 parentId: fld_816468a5974e47e691bed9b6d7011b91
-modified: 1638333360506
-created: 1635915101242
-url: https://api.carimontir.com/user/orders/
-name: GET Orders
+modified: 1638331331567
+created: 1638330986636
+url: https://api.carimontir.com/user/orders/detail/156/cancel
+name: GET Order Cancel
 description: |-2
       required header "rapdig-signature"
 
@@ -12,26 +12,13 @@ description: |-2
   URI : https://api.carimontir.com/user/orders/{status}
 
   status : 
-
-    - pending (Menunggu Pembayaran)
+    - waiting
     
-      Order Status : 0 
-      
-    - waiting (Menunggu Di proses atau menunggu diselesaikan)
+      Order Status : 0,1
     
-      Order Status : 1,4
-    
-    - process (Sedang di proses bengkel)
+    - process
     
       Order Status : 2,3
-    
-    - done (Transaksi selesai)
-    
-      Order Status : 5
-     
-    - cancel (Dibatalkan bengkel atau dibatalkan customer)
-        
-     Order Status : 6
     
     - (default) all 
 
@@ -47,7 +34,7 @@ headers:
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzgzMjI3NDYsIm5iZiI6MTYzODMyMjc0NiwianRpIjoiNnFGdm45VGIxZDZuZG93aCIsInN1YiI6MjA5LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.XASRrKx0zwAh7JK8OEf1eSisSRDzfVYfccGKIXB8HM0
-metaSortKey: -1635915101242
+metaSortKey: -1635915091003.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
