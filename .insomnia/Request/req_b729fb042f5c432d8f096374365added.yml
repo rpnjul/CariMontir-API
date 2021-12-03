@@ -1,12 +1,13 @@
 _id: req_b729fb042f5c432d8f096374365added
 type: Request
 parentId: fld_90363d9fbb11456681d252be663d87bc
-modified: 1638512745825
+modified: 1638513455409
 created: 1637135846927
 url: https://api.carimontir.com/user/vehicle/delete
 name: POST Vehicle Delete
 description: |-2
-      required header "rapdig-signature"
+      require header "rapdig-signature"
+      $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
       required header Content-Type: application/json
         
   JSON Body :

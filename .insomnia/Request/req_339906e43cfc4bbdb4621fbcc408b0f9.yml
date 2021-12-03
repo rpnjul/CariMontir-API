@@ -1,12 +1,13 @@
 _id: req_339906e43cfc4bbdb4621fbcc408b0f9
 type: Request
 parentId: fld_816468a5974e47e691bed9b6d7011b91
-modified: 1638512721898
+modified: 1638513405168
 created: 1637120009172
 url: https://api.carimontir.com/user/orders/detail/166
 name: GET Order detail
 description: |-2
-      required header "rapdig-signature"
+      require header "rapdig-signature"
+      $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
 
 
   URI : https://api.carimontir.com/user/orders/{status}

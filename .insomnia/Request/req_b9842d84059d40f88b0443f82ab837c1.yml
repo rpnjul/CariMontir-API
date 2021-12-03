@@ -1,12 +1,13 @@
 _id: req_b9842d84059d40f88b0443f82ab837c1
 type: Request
 parentId: fld_d60e10d13962496d8cd5034cfab883be
-modified: 1638512711659
+modified: 1638513379719
 created: 1636617792664
 url: https://api.carimontir.com/user/address/add
 name: POST Add Address
 description: >-2
-      required header "rapdig-signature" and bearer Token
+      require header "rapdig-signature"
+      $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
 
   JSON Body Required : 
 

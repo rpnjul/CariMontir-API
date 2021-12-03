@@ -1,11 +1,13 @@
 _id: req_080c0d016ca948f984cd1de8cfdc5e91
 type: Request
 parentId: fld_a3433cc62fdc4941bb4dc47d78df7c0c
-modified: 1638512658248
+modified: 1638513338086
 created: 1635760649681
 url: https://api.carimontir.com/checkout/check
 name: GET Checkout Validate
-description: ""
+description: |-2
+      require header "rapdig-signature"
+      $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
 method: GET
 body: {}
 parameters:

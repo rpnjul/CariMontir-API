@@ -1,13 +1,15 @@
 _id: req_8f6bd2f1a12a4e5294c274e413cbe9d9
 type: Request
 parentId: fld_61be685134424af59103cc1e09c08b1d
-modified: 1638512749036
+modified: 1638513465948
 created: 1634886972032
 url: https://api.carimontir.com/users/update
 name: POST User Update
 description: |-2
-      required header "rapdig-signature"
-      required header Content-Type: multipart/form-data
+      require header "rapdig-signature"
+      $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+      
+      require header Content-Type: multipart/form-data
         
   JSON Body :
 

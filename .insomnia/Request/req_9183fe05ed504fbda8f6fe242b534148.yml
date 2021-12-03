@@ -1,12 +1,13 @@
 _id: req_9183fe05ed504fbda8f6fe242b534148
 type: Request
 parentId: fld_90363d9fbb11456681d252be663d87bc
-modified: 1638512738763
+modified: 1638513436389
 created: 1636621384679
 url: https://api.carimontir.com/user/vehicle/add
 name: POST Add Vehicle
 description: >-2
-      required header "rapdig-signature"
+      require header "rapdig-signature"
+      $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
 
   API Variant FROM API MASTER => DATA LISTED 
 

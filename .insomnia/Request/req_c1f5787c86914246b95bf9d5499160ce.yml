@@ -1,12 +1,13 @@
 _id: req_c1f5787c86914246b95bf9d5499160ce
 type: Request
 parentId: fld_e60699f6b0c849168eba68b5975618a8
-modified: 1638512665587
+modified: 1638513351424
 created: 1634803093567
 url: https://api.carimontir.com/carts/total
 name: GET Cart Total
 description: |+2
-      required header "rapdig-signature"
+      require header "rapdig-signature"
+      $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
 
       
 method: GET

@@ -1,12 +1,13 @@
 _id: req_8a51e749949f449697d35626862d7197
 type: Request
 parentId: fld_50e31e8f757349de968a8efce38a2f4b
-modified: 1638512732697
+modified: 1638513426524
 created: 1637309519406
 url: https://api.carimontir.com/user/review/add
 name: POST Reviews
 description: |-2
-      required header "rapdig-signature"
+      require header "rapdig-signature"
+      $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
 
 
 

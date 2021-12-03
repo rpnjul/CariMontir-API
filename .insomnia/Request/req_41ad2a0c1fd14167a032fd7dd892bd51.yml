@@ -1,12 +1,13 @@
 _id: req_41ad2a0c1fd14167a032fd7dd892bd51
 type: Request
 parentId: fld_e60699f6b0c849168eba68b5975618a8
-modified: 1638512698968
+modified: 1638513365342
 created: 1634816434035
 url: https://api.carimontir.com/carts/delete
 name: POST Delete By ID Cart
 description: |-2
-      required header "rapdig-signature"
+      require header "rapdig-signature"
+      $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
 
 
       

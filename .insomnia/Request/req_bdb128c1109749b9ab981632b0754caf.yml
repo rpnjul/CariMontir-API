@@ -1,12 +1,13 @@
 _id: req_bdb128c1109749b9ab981632b0754caf
 type: Request
 parentId: fld_50e31e8f757349de968a8efce38a2f4b
-modified: 1638512731160
+modified: 1638513423259
 created: 1638154025824
 url: https://api.carimontir.com/review/suggestion
 name: GET Suggestion Rate
 description: |-2
-      required header "rapdig-signature"
+      require header "rapdig-signature"
+      $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
       
       
   URI :

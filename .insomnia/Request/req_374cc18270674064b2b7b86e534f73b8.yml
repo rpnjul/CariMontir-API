@@ -1,12 +1,13 @@
 _id: req_374cc18270674064b2b7b86e534f73b8
 type: Request
 parentId: fld_816468a5974e47e691bed9b6d7011b91
-modified: 1638512723325
+modified: 1638513408475
 created: 1638330986636
 url: https://api.carimontir.com/user/orders/detail/162/cancel
 name: POST Order Cancel
 description: |+2
-      required header "rapdig-signature"
+      require header "rapdig-signature"
+      $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
 
 method: POST
 body: {}

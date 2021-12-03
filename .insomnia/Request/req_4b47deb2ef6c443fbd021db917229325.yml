@@ -1,12 +1,13 @@
 _id: req_4b47deb2ef6c443fbd021db917229325
 type: Request
 parentId: fld_45041927ad9a41feacf68edb9881bda9
-modified: 1638512753740
+modified: 1638513490509
 created: 1636961335197
 url: https://api.carimontir.com/user/pay
 name: GET Pay
-description: >-
-  
+description: >-2
+      require header "rapdig-signature"
+      $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
 
 
   JSON body :
@@ -32,7 +33,7 @@ headers:
     id: pair_a546fd9d70d247e6aaab2a7ef118bfd1
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzgyMzk1NTgsIm5iZiI6MTYzODIzOTU1OCwianRpIjoiNnVYTmNTWEdFdjNyT0dueSIsInN1YiI6MjA5LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.12qFJ-5tqNwdMXag7eu3cNKnu-kOBMW8whipZ_KVBQA
+  token: ""
 metaSortKey: -1634021668931.25
 isPrivate: false
 settingStoreCookies: true

@@ -1,12 +1,13 @@
 _id: req_f2b9837970664878a18437bc69a8db1c
 type: Request
 parentId: fld_50e31e8f757349de968a8efce38a2f4b
-modified: 1638512729704
+modified: 1638513419985
 created: 1637302664814
 url: https://api.carimontir.com/user/review/1
 name: GET Reviews
 description: |-2
-      required header "rapdig-signature"
+      require header "rapdig-signature"
+      $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
       
       
   URI :

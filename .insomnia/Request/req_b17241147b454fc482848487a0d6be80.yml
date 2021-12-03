@@ -1,12 +1,13 @@
 _id: req_b17241147b454fc482848487a0d6be80
 type: Request
 parentId: fld_816468a5974e47e691bed9b6d7011b91
-modified: 1638512725105
+modified: 1638513415022
 created: 1638512340823
 url: https://api.carimontir.com/user/orders/detail/166/done
 name: POST Order Success
 description: |+2
-      required header "rapdig-signature"
+      require header "rapdig-signature"
+      $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
 
 method: POST
 body: {}

@@ -1,11 +1,13 @@
 _id: req_cf4d51d261164cac94de8db7caed766f
 type: Request
 parentId: fld_45041927ad9a41feacf68edb9881bda9
-modified: 1638512755387
+modified: 1638513488298
 created: 1634011509684
 url: https://api.carimontir.com/me
 name: GET me
-description: ""
+description: |-2
+      require header "rapdig-signature"
+      $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
 method: GET
 body: {}
 parameters: []
@@ -16,7 +18,7 @@ headers:
     id: pair_256841e85db7417999a83d7a132dfc87
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzgzMjI3NDYsIm5iZiI6MTYzODMyMjc0NiwianRpIjoiNnFGdm45VGIxZDZuZG93aCIsInN1YiI6MjA5LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.XASRrKx0zwAh7JK8OEf1eSisSRDzfVYfccGKIXB8HM0
+  token: ""
   prefix: ""
 metaSortKey: -1634021668925
 isPrivate: false

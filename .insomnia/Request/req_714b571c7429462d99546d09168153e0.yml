@@ -1,12 +1,13 @@
 _id: req_714b571c7429462d99546d09168153e0
 type: Request
 parentId: fld_d60e10d13962496d8cd5034cfab883be
-modified: 1638512715060
+modified: 1638513392715
 created: 1637119341115
 url: https://api.carimontir.com/user/address/change
 name: POST Change Address Main
 description: >-2
-      required header "rapdig-signature" and bearer Token
+      require header "rapdig-signature"
+      $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
 
 
   JSON Body Required : 

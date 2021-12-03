@@ -1,12 +1,13 @@
 _id: req_af49fec0c8614171937c48fed60d0f51
 type: Request
 parentId: fld_d60e10d13962496d8cd5034cfab883be
-modified: 1638512717283
+modified: 1638513396301
 created: 1637117378336
 url: https://api.carimontir.com/user/address/delete
 name: POST Delete Address
 description: >-2
-      required header "rapdig-signature" and bearer Token
+      require header "rapdig-signature"
+      $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
 
 
   JSON Body Required : 

@@ -1,11 +1,13 @@
 _id: req_e3279fea1fe24dccbe13e4df65c77cc0
 type: Request
 parentId: fld_d60e10d13962496d8cd5034cfab883be
-modified: 1638512710199
+modified: 1638513374674
 created: 1636617550836
 url: https://api.carimontir.com/user/address
 name: GET Address
-description: ""
+description: |-2
+      require header "rapdig-signature"
+      $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
 method: GET
 body: {}
 parameters: []
