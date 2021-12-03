@@ -1,7 +1,7 @@
 _id: req_8a51e749949f449697d35626862d7197
 type: Request
 parentId: fld_50e31e8f757349de968a8efce38a2f4b
-modified: 1638513426524
+modified: 1638527382688
 created: 1637309519406
 url: https://api.carimontir.com/user/review/add
 name: POST Reviews
@@ -23,18 +23,18 @@ method: POST
 body:
   mimeType: multipart/form-data
   params:
+    - name: order_id
+      value: "92"
+      description: ""
+      id: pair_a218a55effb4434a8b32e27974898674
+    - name: product_id
+      value: "2"
+      description: ""
+      id: pair_8e2d962297e241708c6b448135a76e58
     - name: rate
       value: "5"
       description: ""
       id: pair_d61538ac4a2440bcb925da7d82423efe
-    - name: product_id
-      value: "25"
-      description: ""
-      id: pair_8e2d962297e241708c6b448135a76e58
-    - name: order_id
-      value: "2"
-      description: ""
-      id: pair_a218a55effb4434a8b32e27974898674
     - name: message
       value: Mantap
       description: ""
@@ -43,28 +43,67 @@ body:
       value: 1,2,3
       description: ""
       id: pair_dc6c608dcd62488b82de2da9d13b0756
+      disabled: true
     - name: photo[]
       value: ""
       description: ""
       id: pair_03917bb13d06433fa2de8505ae1b4d2e
       type: file
-      fileName: C:\Users\rekapdigi\Pictures\logo\BANTUBELI\index.jpg
+      fileName: C:\Users\rekapdigi\Pictures\logo\Pil Logo Bantu Beli-01.png
       disabled: false
     - name: photo[]
       value: ""
       description: ""
       id: pair_3ba044c713d4476aa8d7852d75e44f9e
       type: file
-      fileName: C:\Users\rekapdigi\Documents\#Laporan Kerja\Laporan harian karyawan
-        Satria Aprilian 18112021.pdf
+      fileName: C:\Users\rekapdigi\Pictures\logo\Pil Logo Bantu Beli-02.png
       disabled: false
     - name: photo[]
       value: ""
       description: ""
       id: pair_f54b64d9e02c4628ad8512620519e15c
       type: file
-      fileName: C:\Users\rekapdigi\Pictures\logo\BANTUBELI\Pil Logo Bantu Beli-04.png
+      fileName: C:\Users\rekapdigi\Pictures\logo\Pil Logo Bantu Beli-03.png
       disabled: false
+    - name: photo[]
+      value: ""
+      description: ""
+      id: pair_0917cce4f790446d9ffefa1158fa5109
+      type: file
+      multiline: null
+      fileName: C:\Users\rekapdigi\Pictures\logo\Pil Logo Bantu Beli-04.png
+      disabled: false
+    - name: photo[]
+      value: ""
+      description: ""
+      id: pair_d7a26bcc5472400aa3e86fbba7dafc05
+      type: file
+      multiline: null
+      fileName: C:\Users\rekapdigi\Pictures\logo\Pil Logo Bantu Beli-05.png
+      disabled: false
+    - name: photo[]
+      value: ""
+      description: ""
+      id: pair_19607ed1c12a47cb9d884babede79ffd
+      type: file
+      multiline: null
+      fileName: C:\Users\rekapdigi\Pictures\logo\Pil Logo Bantu Beli-06.png
+      disabled: false
+    - name: photo[]
+      value: ""
+      description: ""
+      id: pair_48a9475b6f4747bbb62475ec3f6a3601
+      type: file
+      multiline: null
+      fileName: C:\Users\rekapdigi\Pictures\logo\Pil Logo Bantu Beli-07.png
+      disabled: false
+    - name: photo[]
+      value: ""
+      description: ""
+      id: pair_43a9df2d41b64b12aa0f37c26db32373
+      type: file
+      multiline: null
+      fileName: C:\Users\rekapdigi\Pictures\logo\Pil Logo Bantu Beli-08.png
 parameters: []
 headers:
   - name: rapdig-signature
@@ -76,7 +115,7 @@ headers:
     id: pair_8432bf2bbb354da6baf9ec5d7f515742
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUxNTAwMDgsIm5iZiI6MTYzNTE1MDAwOCwianRpIjoiaVBXV3M1ZDFqajg1Y2tKVyIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.f17y4lbtF33WqIqCGPeXvVidtKkvyo5a4t-bFvRfz3o
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2Mzg1MTY3NDAsIm5iZiI6MTYzODUxNjc0MCwianRpIjoiY2lJaHREWlZOWWU5cXhLeCIsInN1YiI6MjA5LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.i8lIOVk2lW1i7b-RYxfzcmu-OChlaOGgN6pMagXVnQU
 metaSortKey: -1636960107825
 isPrivate: false
 settingStoreCookies: true
