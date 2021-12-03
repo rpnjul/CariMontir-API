@@ -1,7 +1,7 @@
 _id: req_af49fec0c8614171937c48fed60d0f51
 type: Request
 parentId: fld_d60e10d13962496d8cd5034cfab883be
-modified: 1637119406665
+modified: 1638512717283
 created: 1637117378336
 url: https://api.carimontir.com/user/address/delete
 name: POST Delete Address
@@ -37,7 +37,7 @@ body:
 parameters: []
 headers:
   - name: rapdig-signature
-    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    value: ""
     description: ""
     id: pair_14e60a0e73a6413d9157654f6aff4b21
   - name: Content-Type

@@ -1,7 +1,7 @@
 _id: req_650ebbd988fe4988960fdebf19cabd19
 type: Request
 parentId: fld_90363d9fbb11456681d252be663d87bc
-modified: 1636621321342
+modified: 1638512736924
 created: 1636621292801
 url: https://api.carimontir.com/user/vehicle/
 name: GET Vehicle
@@ -12,7 +12,7 @@ body: {}
 parameters: []
 headers:
   - name: rapdig-signature
-    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    value: ""
     description: ""
     id: pair_fbc60212ce454c0fbc4fda5ad1a1ad5b
 authentication:

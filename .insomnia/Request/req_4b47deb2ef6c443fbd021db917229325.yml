@@ -1,7 +1,7 @@
 _id: req_4b47deb2ef6c443fbd021db917229325
 type: Request
 parentId: fld_45041927ad9a41feacf68edb9881bda9
-modified: 1638253613769
+modified: 1638512753740
 created: 1636961335197
 url: https://api.carimontir.com/user/pay
 name: GET Pay
@@ -24,7 +24,7 @@ body:
 parameters: []
 headers:
   - name: rapdig-signature
-    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    value: ""
     description: ""
     id: pair_5631ba52adc74475b1cd83e2461c3437
   - name: Content-Type

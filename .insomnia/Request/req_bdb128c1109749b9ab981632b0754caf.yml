@@ -1,9 +1,9 @@
 _id: req_bdb128c1109749b9ab981632b0754caf
 type: Request
 parentId: fld_50e31e8f757349de968a8efce38a2f4b
-modified: 1638154147501
+modified: 1638512731160
 created: 1638154025824
-url: https://api.carimontir.com/user/review/suggestion
+url: https://api.carimontir.com/review/suggestion
 name: GET Suggestion Rate
 description: |-2
       required header "rapdig-signature"
@@ -19,12 +19,12 @@ body: {}
 parameters: []
 headers:
   - name: rapdig-signature
-    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    value: ""
     description: ""
     id: pair_c2b302610f8e4f7e94c3a473678c4bb5
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUxNTAwMDgsIm5iZiI6MTYzNTE1MDAwOCwianRpIjoiaVBXV3M1ZDFqajg1Y2tKVyIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.f17y4lbtF33WqIqCGPeXvVidtKkvyo5a4t-bFvRfz3o
+  token: ""
 metaSortKey: -1637131386319.5
 isPrivate: false
 settingStoreCookies: true

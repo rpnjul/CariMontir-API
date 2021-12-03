@@ -1,10 +1,10 @@
-_id: req_374cc18270674064b2b7b86e534f73b8
+_id: req_b17241147b454fc482848487a0d6be80
 type: Request
 parentId: fld_816468a5974e47e691bed9b6d7011b91
-modified: 1638512723325
-created: 1638330986636
-url: https://api.carimontir.com/user/orders/detail/162/cancel
-name: POST Order Cancel
+modified: 1638512725105
+created: 1638512340823
+url: https://api.carimontir.com/user/orders/detail/166/done
+name: POST Order Success
 description: |+2
       required header "rapdig-signature"
 
@@ -19,7 +19,7 @@ headers:
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2Mzg1MDMyMDUsIm5iZiI6MTYzODUwMzIwNSwianRpIjoiZ0FiWHFBdzVXS01kVW13ZyIsInN1YiI6MjA5LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.d8_GrZYfeJJ6epOhpyoydC6w15-S5UzNrsvA8tGmy70
-metaSortKey: -1635915091003.75
+metaSortKey: -1635915089297.375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

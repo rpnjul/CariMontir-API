@@ -1,7 +1,7 @@
 _id: req_cf4d51d261164cac94de8db7caed766f
 type: Request
 parentId: fld_45041927ad9a41feacf68edb9881bda9
-modified: 1638350585944
+modified: 1638512755387
 created: 1634011509684
 url: https://api.carimontir.com/me
 name: GET me
@@ -11,7 +11,7 @@ body: {}
 parameters: []
 headers:
   - name: rapdig-signature
-    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    value: ""
     description: ""
     id: pair_256841e85db7417999a83d7a132dfc87
 authentication:

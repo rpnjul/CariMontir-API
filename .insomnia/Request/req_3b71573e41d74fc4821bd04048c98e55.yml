@@ -1,0 +1,21 @@
+_id: req_3b71573e41d74fc4821bd04048c98e55
+type: Request
+parentId: fld_54209047c2cc41628b87babccc42c8cf
+modified: 1638502518942
+created: 1638502515465
+url: https://api.carimontir.com/cron/11c48393dd017bf2ffaf0cd3fb1d96d5
+name: Success Order
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1638208963204
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,7 +1,7 @@
 _id: req_a31573df5bc5481aae91286fe00bbc3a
 type: Request
 parentId: fld_e60699f6b0c849168eba68b5975618a8
-modified: 1634817077676
+modified: 1638512700868
 created: 1634816196793
 url: https://api.carimontir.com/carts/delete/provider
 name: POST Delete By Provider Cart
@@ -37,7 +37,7 @@ body:
 parameters: []
 headers:
   - name: rapdig-signature
-    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    value: ""
     description: ""
     id: pair_ecf6f9712b8e44e5abd4bcaad4738d8f
   - name: Content-Type

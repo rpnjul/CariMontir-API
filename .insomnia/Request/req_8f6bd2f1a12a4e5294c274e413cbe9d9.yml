@@ -1,7 +1,7 @@
 _id: req_8f6bd2f1a12a4e5294c274e413cbe9d9
 type: Request
 parentId: fld_61be685134424af59103cc1e09c08b1d
-modified: 1635915094612
+modified: 1638512749036
 created: 1634886972032
 url: https://api.carimontir.com/users/update
 name: POST User Update
@@ -46,7 +46,7 @@ body:
 parameters: []
 headers:
   - name: rapdig-signature
-    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    value: ""
     description: ""
     id: pair_fbc60212ce454c0fbc4fda5ad1a1ad5b
   - name: Content-Type

@@ -1,7 +1,7 @@
 _id: req_2d271d2f10b2441cb60e0adea538cff3
 type: Request
 parentId: fld_e60699f6b0c849168eba68b5975618a8
-modified: 1637306246842
+modified: 1638512663790
 created: 1634021692932
 url: https://api.carimontir.com/carts
 name: GET/POST Cart
@@ -81,7 +81,7 @@ body:
 parameters: []
 headers:
   - name: rapdig-signature
-    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    value: ""
     description: ""
     id: pair_527ddb37e665467491afb2b0eeef290b
     disabled: false
