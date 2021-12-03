@@ -1,7 +1,7 @@
 _id: req_75e54c819a3f4947a3785dbcfbefba30
 type: Request
 parentId: fld_816468a5974e47e691bed9b6d7011b91
-modified: 1638350082539
+modified: 1638498790752
 created: 1635915101242
 url: https://api.carimontir.com/user/orders/
 name: GET Orders
@@ -36,6 +36,15 @@ description: |-2
     - (default) all 
 
       Order Status : 0 - 7
+      
+      
+     IF Status All : 
+     
+       filter : 
+       {
+          "status" : "pending"
+       }
+     ex : https://api.carimontir.com/user/orders/all?status=pending
 method: GET
 body: {}
 parameters: []
