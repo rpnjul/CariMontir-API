@@ -1,0 +1,38 @@
+_id: req_ce4f60c085a14f77ab8c013a6e44bc49
+type: Request
+parentId: fld_abb258a93c0e4a11a1beb9b4eabef38d
+modified: 1638860031596
+created: 1638860008343
+url: https://api.carimontir.com/wishlists/update
+name: GET Check Wishlist
+description: |-2
+      require header "rapdig-signature"
+      $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id"	 : "95",
+    	"type" : "product"
+    }
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_7d75e4b3d7f94c20a5600bf5fd8dfeb5
+  - name: Content-Type
+    value: application/json
+    id: pair_6b57509b01624f8fa59b3c86b546978b
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUxNTAwMDgsIm5iZiI6MTYzNTE1MDAwOCwianRpIjoiaVBXV3M1ZDFqajg1Y2tKVyIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.f17y4lbtF33WqIqCGPeXvVidtKkvyo5a4t-bFvRfz3o
+metaSortKey: -1638436096705.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

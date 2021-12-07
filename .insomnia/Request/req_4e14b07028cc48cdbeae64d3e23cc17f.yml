@@ -1,0 +1,25 @@
+_id: req_4e14b07028cc48cdbeae64d3e23cc17f
+type: Request
+parentId: fld_5f6262aeb3d346ebbe70534166c29060
+modified: 1638845495483
+created: 1638844438206
+url: https://api.carimontir.com/service/122/reviews
+name: GET Service Review
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_f0ba605413054adf8efbeffc2ee353b7
+authentication: {}
+metaSortKey: -1636099597866.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
