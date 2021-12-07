@@ -1,7 +1,7 @@
 _id: req_ce4f60c085a14f77ab8c013a6e44bc49
 type: Request
 parentId: fld_abb258a93c0e4a11a1beb9b4eabef38d
-modified: 1638860031596
+modified: 1638864817161
 created: 1638860008343
 url: https://api.carimontir.com/wishlists/update
 name: GET Check Wishlist
@@ -13,7 +13,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"id"	 : "95",
+    	"id"	 : "102",
     	"type" : "product"
     }
 parameters: []
