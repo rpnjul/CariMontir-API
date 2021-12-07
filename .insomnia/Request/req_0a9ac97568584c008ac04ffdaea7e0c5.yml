@@ -1,9 +1,9 @@
 _id: req_0a9ac97568584c008ac04ffdaea7e0c5
 type: Request
 parentId: fld_5f6262aeb3d346ebbe70534166c29060
-modified: 1636443837335
+modified: 1638844308816
 created: 1636106687036
-url: https://api.carimontir.com/service?page=38
+url: https://api.carimontir.com/service
 name: GET Service
 description: ""
 method: GET

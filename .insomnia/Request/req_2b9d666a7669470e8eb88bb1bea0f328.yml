@@ -1,9 +1,9 @@
 _id: req_2b9d666a7669470e8eb88bb1bea0f328
 type: Request
 parentId: fld_9b575d28db6f4ec9a765fb04797648f2
-modified: 1638171706216
+modified: 1638846790482
 created: 1638171702407
-url: https://api.carimontir.com/products/25/reviews
+url: https://api.carimontir.com/products/59/reviews
 name: GET Products Review By Id
 description: ""
 method: GET
