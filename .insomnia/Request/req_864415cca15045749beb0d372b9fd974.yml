@@ -1,10 +1,10 @@
-_id: req_cf4d51d261164cac94de8db7caed766f
+_id: req_864415cca15045749beb0d372b9fd974
 type: Request
 parentId: fld_45041927ad9a41feacf68edb9881bda9
-modified: 1639018774468
-created: 1634011509684
-url: https://api.carimontir.com/me
-name: GET me
+modified: 1639018771631
+created: 1639018654066
+url: https://api.carimontir.com/login/check
+name: Check login
 description: |-2
       require header "rapdig-signature"
       $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
@@ -20,7 +20,7 @@ authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUxNTAwMDgsIm5iZiI6MTYzNTE1MDAwOCwianRpIjoiaVBXV3M1ZDFqajg1Y2tKVyIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.f17y4lbtF33WqIqCGPeXvVidtKkvyo5a4t-bFvRfz3o
   prefix: ""
-metaSortKey: -1634021668933.5938
+metaSortKey: -1634021668935.9375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

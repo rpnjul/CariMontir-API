@@ -1,0 +1,27 @@
+_id: req_5d099192eba54b8ab554be1f13512972
+type: Request
+parentId: fld_475d5a7cdfe249fe89d8ebc139b318b1
+modified: 1639021563542
+created: 1639021049325
+url: https://api.carimontir.com/providers/82/follow
+name: POST Follow
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_2520139f55f24d70ade265239dbcc51b
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2Mzg4NTg5MDYsIm5iZiI6MTYzODg1ODkwNiwianRpIjoiRG44Y0lGNjE2dVEydlpMVCIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.xhpXu5tWKonG7RFLWwQuLtx0Fp6VSk0HpK5_Y96DRMY
+metaSortKey: -1634904454072.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
