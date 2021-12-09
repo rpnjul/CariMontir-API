@@ -1,7 +1,7 @@
 _id: req_5d099192eba54b8ab554be1f13512972
 type: Request
 parentId: fld_475d5a7cdfe249fe89d8ebc139b318b1
-modified: 1639021563542
+modified: 1639024129503
 created: 1639021049325
 url: https://api.carimontir.com/providers/82/follow
 name: POST Follow
@@ -16,7 +16,7 @@ headers:
     id: pair_2520139f55f24d70ade265239dbcc51b
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2Mzg4NTg5MDYsIm5iZiI6MTYzODg1ODkwNiwianRpIjoiRG44Y0lGNjE2dVEydlpMVCIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.xhpXu5tWKonG7RFLWwQuLtx0Fp6VSk0HpK5_Y96DRMY
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzkwMjMzOTksIm5iZiI6MTYzOTAyMzM5OSwianRpIjoiN1VBbTN5ZVo1bTA5MUZleiIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.bXS_HpuK6aubeo3si7Q6IjmPkBnPThX5GD87QKX7Lx8
 metaSortKey: -1634904454072.125
 isPrivate: false
 settingStoreCookies: true
