@@ -1,0 +1,25 @@
+_id: req_c3ff964fd9b44a8d87f548b58f4caf08
+type: Request
+parentId: fld_0944a10582bb4d89b41b03996497bbfa
+modified: 1639037718583
+created: 1639033984703
+url: https://api.carimontir.com/testing/notif
+name: Test Notif
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_bc8a2898f34d456aa46c2c7eeeb0aad4
+authentication: {}
+metaSortKey: -1639033984703
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

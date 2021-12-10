@@ -1,0 +1,40 @@
+_id: req_b1ee8b919a3a4394b71432560152c982
+type: Request
+parentId: fld_0944a10582bb4d89b41b03996497bbfa
+modified: 1639035023125
+created: 1639034869792
+url: https://fcm.googleapis.com/fcm/send
+name: FIREBASE
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "to": "fV1uF2bVSYWQT5mNRkkm6u:APA91bEmxofs0lBzDNihtiQcd_ovrjpDratrYQLoqc70acO3GoavugnZo-Wb0xTlHswcCfrVELyrC61Mqk2V3P9yCpqTWte0qiD_iryJz4xGyIUOczdWlmAFLFw4L2-z6ttHys6wKAoU",
+      "data": {},
+      "notification": {
+       "title": "Transaksi",
+        "body": "Transaksi test"
+      },
+      "content_available": true,
+      "priority": "high"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ae0981cfb0ad4c58b1f4130463aa6fee
+  - name: Authorization
+    value: key=AAAA2VM1kvs:APA91bEgBruGAyVZGt5SyhtSn6OiDQbRWRoWS1tkygmeqtHvLlw4JTrWEKk75y1IZvscU8hZ0ElVDg6B-L5Cq89RAty9pO3wTKFJQVUDmm-VDnJhS5NTK7nmvR6BsNhtHk3JU1x51Wkm
+    description: ""
+    id: pair_cee51eae0d6e4f2b9ac585c80be04950
+authentication: {}
+metaSortKey: -1639034869792
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

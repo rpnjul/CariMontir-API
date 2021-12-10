@@ -1,7 +1,7 @@
 _id: req_34f2d85ca3f7471da74a5ec38925373f
 type: Request
 parentId: fld_a219cc11b45c43a69a77e8ddc6fa5253
-modified: 1639025354181
+modified: 1639025560183
 created: 1633423430067
 url: https://api.carimontir.com/users/login
 name: Login
@@ -22,7 +22,9 @@ body:
     {
     	"mobile_no" : "0895371529602",
     	"otp" : "1234",
-    	"country_code" : 62
+    	"country_code" : 62,
+    	"device_token" : "asdvasidbiyvbqiwubdasd",
+    	"device" : "android"
     }
 parameters: []
 headers:
