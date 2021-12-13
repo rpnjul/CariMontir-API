@@ -1,7 +1,7 @@
 _id: req_080c0d016ca948f984cd1de8cfdc5e91
 type: Request
 parentId: fld_a3433cc62fdc4941bb4dc47d78df7c0c
-modified: 1638513338086
+modified: 1639368973653
 created: 1635760649681
 url: https://api.carimontir.com/checkout/check
 name: GET Checkout Validate
@@ -12,21 +12,21 @@ method: GET
 body: {}
 parameters:
   - name: cart_service
-    value: 373,378
+    value: 791,792,793
     description: ""
     id: pair_0cccde814b8e49aebd2790d13a34a0bb
-    disabled: false
+    disabled: true
   - name: cart_product
-    value: 514,515
+    value: 878,881
     description: ""
     id: pair_bac064b23e0b42f79b894cacf26de76a
     disabled: false
   - name: provider_id
-    value: "78"
+    value: "82"
     description: ""
     id: pair_1471b675100a45f599cddc2de26c3d32
   - name: vehicle_id
-    value: "2"
+    value: "49"
     description: ""
     id: pair_3690fd7962a741b3afa43d68e656716e
   - name: home
@@ -34,15 +34,23 @@ parameters:
     description: ""
     id: pair_c446cde8f86e42ebbe8378c1e78bdb84
     disabled: false
+  - name: address_id
+    value: "76"
+    description: ""
+    id: pair_0aaddf36a8e24b63a9f4945b076da19b
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_f8e3800a8c7e4c738ab0bb72970d974e
 headers:
   - name: rapdig-signature
-    value: ""
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
     description: ""
     id: pair_b9401c69d18749b989e5968e8ba5292d
     disabled: false
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUxNTAwMDgsIm5iZiI6MTYzNTE1MDAwOCwianRpIjoiaVBXV3M1ZDFqajg1Y2tKVyIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.f17y4lbtF33WqIqCGPeXvVidtKkvyo5a4t-bFvRfz3o
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzkzNjcxMzMsIm5iZiI6MTYzOTM2NzEzMywianRpIjoid2lJWUVxYUo4UlVvR0FOMCIsInN1YiI6MTcwLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.NVpeoQKwgSyq7iaDkkw-9fdLhejfqwSiETV_WGkB_I4
 metaSortKey: -1634021668812.5
 isPrivate: false
 settingStoreCookies: true

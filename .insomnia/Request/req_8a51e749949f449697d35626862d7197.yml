@@ -1,7 +1,7 @@
 _id: req_8a51e749949f449697d35626862d7197
 type: Request
 parentId: fld_50e31e8f757349de968a8efce38a2f4b
-modified: 1638784615290
+modified: 1639377436910
 created: 1637309519406
 url: https://api.carimontir.com/user/review/add
 name: POST Reviews
@@ -25,15 +25,15 @@ body:
   mimeType: multipart/form-data
   params:
     - name: order_id
-      value: "101"
+      value: "17"
       description: ""
       id: pair_a218a55effb4434a8b32e27974898674
     - name: product_id
-      value: "75"
+      value: "27"
       description: ""
       id: pair_8e2d962297e241708c6b448135a76e58
     - name: rate
-      value: "3"
+      value: "5"
       description: ""
       id: pair_d61538ac4a2440bcb925da7d82423efe
     - name: message
@@ -46,7 +46,7 @@ body:
       id: pair_dc6c608dcd62488b82de2da9d13b0756
       disabled: false
     - name: type
-      value: product,service
+      value: product
       description: ""
       id: pair_5c06090439664f2db304dcbac28ca384
     - name: photo[]
@@ -116,7 +116,7 @@ headers:
     id: pair_8432bf2bbb354da6baf9ec5d7f515742
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUxNTAwMDgsIm5iZiI6MTYzNTE1MDAwOCwianRpIjoiaVBXV3M1ZDFqajg1Y2tKVyIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.f17y4lbtF33WqIqCGPeXvVidtKkvyo5a4t-bFvRfz3o
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzgxODA5NjcsIm5iZiI6MTYzODE4MDk2NywianRpIjoid21uSEFMS3FhRWpibVRISCIsInN1YiI6MjA5LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.HuKjXtN08h9eGigeaHFYvQfxUvRTfgxpLQYsULO95uA
 metaSortKey: -1636960107825
 isPrivate: false
 settingStoreCookies: true

@@ -1,34 +1,21 @@
-_id: req_4fe17489f30d4d72975c8f59c0486732
+_id: req_9c0dbc9b7f0b4df0a456948379cdc650
 type: Request
 parentId: fld_d7a1ffb6065147f88dfa8cd4316dba33
-modified: 1639382057656
-created: 1639105527227
-url: https://api.carimontir.com/user/notification
-name: GET Notification
-description: |-2
+modified: 1639389003529
+created: 1639384225918
+url: https://api.carimontir.com/user/notification/all
+name: POST Read All Notifications
+description: |+2
       require header "rapdig-signature"
       $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
 
 
       
-  -- GET Documentation (required fields)
+  -- POST Documentation (required fields)
 
-
-
-      Filter : 
-        status => 'in:0,1'
-method: GET
+method: POST
 body: {}
-parameters:
-  - name: status
-    value: "1"
-    description: ""
-    id: pair_0d3ffd6cc1594f06a3651807c139d995
-    disabled: false
-  - name: ""
-    value: ""
-    description: ""
-    id: pair_33fa0c03ecae434b8ca78422f727d490
+parameters: []
 headers:
   - name: rapdig-signature
     value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
@@ -37,7 +24,7 @@ headers:
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzkwMjM2MDUsIm5iZiI6MTYzOTAyMzYwNSwianRpIjoiSFN4SDMxSHVJcjNhWml6RiIsInN1YiI6MjA5LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.humpqFBDfnpYa1W3BEZOs74437ii1oTDM7wW0Tg0KWI
-metaSortKey: -1639105527227
+metaSortKey: -1639052534150.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

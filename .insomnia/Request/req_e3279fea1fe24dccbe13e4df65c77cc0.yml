@@ -1,7 +1,7 @@
 _id: req_e3279fea1fe24dccbe13e4df65c77cc0
 type: Request
 parentId: fld_d60e10d13962496d8cd5034cfab883be
-modified: 1638513374674
+modified: 1639367204422
 created: 1636617550836
 url: https://api.carimontir.com/user/address
 name: GET Address
@@ -13,12 +13,12 @@ body: {}
 parameters: []
 headers:
   - name: rapdig-signature
-    value: ""
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
     description: ""
     id: pair_14e60a0e73a6413d9157654f6aff4b21
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUxNTAwMDgsIm5iZiI6MTYzNTE1MDAwOCwianRpIjoiaVBXV3M1ZDFqajg1Y2tKVyIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.f17y4lbtF33WqIqCGPeXvVidtKkvyo5a4t-bFvRfz3o
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzkzNjcxMzMsIm5iZiI6MTYzOTM2NzEzMywianRpIjoid2lJWUVxYUo4UlVvR0FOMCIsInN1YiI6MTcwLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.NVpeoQKwgSyq7iaDkkw-9fdLhejfqwSiETV_WGkB_I4
 metaSortKey: -1636617550836
 isPrivate: false
 settingStoreCookies: true

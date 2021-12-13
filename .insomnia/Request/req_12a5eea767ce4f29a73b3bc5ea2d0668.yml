@@ -1,7 +1,7 @@
 _id: req_12a5eea767ce4f29a73b3bc5ea2d0668
 type: Request
 parentId: fld_a3433cc62fdc4941bb4dc47d78df7c0c
-modified: 1638513341698
+modified: 1639367484620
 created: 1636438108298
 url: https://api.carimontir.com/checkout
 name: POST Checkout
@@ -17,10 +17,64 @@ description: "    require header \"rapdig-signature\"
   \   \ 
 
 
-  -- GET Documentation (required fields)
+  -- POST Documentation (required fields)
 
 
-  \    null
+  \    {
+
+  \      \"cproducts\": [
+
+  \        {
+
+  \          \"id\": 797,
+
+  \          \"is_install\": true,
+
+  \          \"is_location\": true,
+
+  \          \"note\": \"\"
+
+  \        },
+
+  \        {
+
+  \          \"id\": 795,
+
+  \          \"is_install\": true,
+
+  \          \"is_location\": true,
+
+  \          \"note\": \"\"
+
+  \        }
+
+  \      ],
+
+  \      \"cservices\": [
+
+  \        {
+
+  \          \"id\": 696,
+
+  \          \"is_location\": true
+
+  \        }
+
+  \      ],
+
+  \      \"provider_id\": 78,
+
+  \      \"payment_id\": 7,
+
+  \      \"vehicle_id\": 27,
+
+  \      \"address_id\": 58,
+
+  \      \"book_date\": \"11-12-2021\",
+
+  \      \"book_time\": \"01:00 PM - 02:00 PM\"
+
+  \    }
 
 
   -- Query Header / JSON Body
@@ -36,30 +90,19 @@ body:
   text: |-
     {
       "cproducts": [
-        {
-          "id": 797,
-          "is_install": true,
-          "is_location": true,
-          "note": ""
-        },
-        {
-          "id": 795,
-          "is_install": true,
-          "is_location": true,
-          "note": ""
-        }
+        
       ],
       "cservices": [
         {
-          "id": 696,
+          "id": 791,
           "is_location": true
         },
-        {
-          "id": 697,
-          "is_location": true
-        },
-        {
-          "id": 698,
+    	 	{
+    			"id": 792,
+    			"is_location": true
+    		},
+    		{
+          "id": 793,
           "is_location": true
         }
       ],
@@ -67,13 +110,13 @@ body:
       "payment_id": 7,
       "vehicle_id": 27,
       "address_id": 58,
-      "book_date": "01-12-2021",
+      "book_date": "11-12-2021",
       "book_time": "01:00 PM - 02:00 PM"
     }
 parameters: []
 headers:
   - name: rapdig-signature
-    value: ""
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
     description: ""
     id: pair_9838cd29ec1943438e1efff572ad7e89
     disabled: false
@@ -82,7 +125,7 @@ headers:
     id: pair_5d30f0b112944c0a819d8506a226e23c
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzgzMjI3NDYsIm5iZiI6MTYzODMyMjc0NiwianRpIjoiNnFGdm45VGIxZDZuZG93aCIsInN1YiI6MjA5LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.XASRrKx0zwAh7JK8OEf1eSisSRDzfVYfccGKIXB8HM0
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzkzNjcxMzMsIm5iZiI6MTYzOTM2NzEzMywianRpIjoid2lJWUVxYUo4UlVvR0FOMCIsInN1YiI6MTcwLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.NVpeoQKwgSyq7iaDkkw-9fdLhejfqwSiETV_WGkB_I4
 metaSortKey: -1634021668800
 isPrivate: false
 settingStoreCookies: true
