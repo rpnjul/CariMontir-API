@@ -1,0 +1,38 @@
+_id: req_bb369a3de7dd4723a0dc1acd61e6c7d4
+type: Request
+parentId: fld_816976f0483c4fb7a36de1a398cf7ff6
+modified: 1639543361380
+created: 1639539187229
+url: https://api.carimontir.com/bengkel/users/1/login
+name: Login First
+description: |+2
+      require header "rapdig-signature"
+      $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+
+      
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"mobile_no" : 1122334455,
+    	"country_code" : "62"
+    }
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_6afcc78206a145529e6e0ace5472f870
+  - name: Content-Type
+    value: application/json
+    id: pair_d7dc72a171524481a7834ada3699a2a8
+authentication: {}
+metaSortKey: -1639539187229
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

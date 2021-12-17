@@ -1,21 +1,26 @@
-_id: req_dc812e677b9940a88620aa8038183273
+_id: req_27220dc4a7a74df987117f5a8b373d81
 type: Request
 parentId: fld_475d5a7cdfe249fe89d8ebc139b318b1
-modified: 1639555561265
-created: 1636711042997
-url: https://api.carimontir.com/providers/81
-name: GET  By ID
+modified: 1639625364570
+created: 1639560243156
+url: https://api.carimontir.com/providers/79/hours
+name: GET  Business Hours
 description: '    required header "rapdig-signature"'
 method: GET
-body: {}
+body:
+  mimeType: application/json
+  text: "{\n\t\"date\" : \"20-12-2021\"\n}\n\t"
 parameters: []
 headers:
   - name: rapdig-signature
     value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
     description: ""
     id: pair_b36e53d5d4994a4ead0babbecdd58050
+  - name: Content-Type
+    value: application/json
+    id: pair_dcbba5d0f48947638415b6710efd7f62
 authentication: {}
-metaSortKey: -1635064452535
+metaSortKey: -1635023162622
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

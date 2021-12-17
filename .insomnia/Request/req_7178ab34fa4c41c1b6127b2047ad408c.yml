@@ -1,21 +1,11 @@
-_id: req_f2b9837970664878a18437bc69a8db1c
+_id: req_7178ab34fa4c41c1b6127b2047ad408c
 type: Request
-parentId: fld_50e31e8f757349de968a8efce38a2f4b
-modified: 1639536746522
-created: 1637302664814
-url: https://api.carimontir.com/user/review/1
-name: GET Reviews
-description: |-2
-      require header "rapdig-signature"
-      $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
-      
-      
-  URI :
-
-      https://api.carimontir.com/user/review/{param}
-      param : 0 => Belum Diulas
-              1 => Sudah Diulas
-      example : "https://api.carimontir.com/user/review/0"
+parentId: fld_c986d139d1aa4e57a2a513646f5a9068
+modified: 1639731815524
+created: 1639724460248
+url: https://api.carimontir.com/message
+name: GET Message
+description: ""
 method: GET
 body: {}
 parameters: []
@@ -23,11 +13,11 @@ headers:
   - name: rapdig-signature
     value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
     description: ""
-    id: pair_c2b302610f8e4f7e94c3a473678c4bb5
+    id: pair_db8177d273a34bea935cf9f41c5184a6
 authentication:
   type: bearer
   token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzkzNjcxMzMsIm5iZiI6MTYzOTM2NzEzMywianRpIjoid2lJWUVxYUo4UlVvR0FOMCIsInN1YiI6MTcwLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.NVpeoQKwgSyq7iaDkkw-9fdLhejfqwSiETV_WGkB_I4
-metaSortKey: -1637302664814
+metaSortKey: -1639724460248
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_760d1b38021446ceaa4fef65ad68b9c2
 type: Request
 parentId: fld_04c2877d98a84d50ade689b7ee6bfe0f
-modified: 1638161570305
+modified: 1639559982353
 created: 1636097234754
 url: https://api.carimontir.com/search
 name: GET Search
@@ -40,7 +40,7 @@ method: GET
 body: {}
 parameters:
   - name: q
-    value: "Kategori: Audio & Video Mobil"
+    value: Data Dummy Titlee
     description: ""
     id: pair_0bd9a2e1f543408cb54a26eeaffc6439
     disabled: false
@@ -52,22 +52,22 @@ parameters:
     value: "5"
     description: ""
     id: pair_8ce6c25289dd49ca891eb6fe8cec3318
-    disabled: false
+    disabled: true
   - name: city
     value: "21497"
     description: ""
     id: pair_3f299a0c5eaa47c1a9731738dfa7a6cb
-    disabled: false
+    disabled: true
   - name: pmin
     value: "10000"
     description: ""
     id: pair_8147074b1b734c40bd976718c5f341eb
-    disabled: false
+    disabled: true
   - name: pmax
     value: "10000"
     description: ""
     id: pair_756b6f49350f44cb999e4202eb2b4374
-    disabled: false
+    disabled: true
   - name: order
     value: "4"
     description: ""

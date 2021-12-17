@@ -1,7 +1,7 @@
 _id: req_12a5eea767ce4f29a73b3bc5ea2d0668
 type: Request
 parentId: fld_a3433cc62fdc4941bb4dc47d78df7c0c
-modified: 1639367484620
+modified: 1639647286370
 created: 1636438108298
 url: https://api.carimontir.com/checkout
 name: POST Checkout
@@ -90,27 +90,21 @@ body:
   text: |-
     {
       "cproducts": [
-        
+       {
+    		  "id": 905,
+          "is_install": true,
+          "is_location": true,
+          "note": "asddasdasdasdasdasdasd"
+    	 }
       ],
       "cservices": [
-        {
-          "id": 791,
-          "is_location": true
-        },
-    	 	{
-    			"id": 792,
-    			"is_location": true
-    		},
-    		{
-          "id": 793,
-          "is_location": true
-        }
+        
       ],
       "provider_id": 78,
       "payment_id": 7,
-      "vehicle_id": 27,
-      "address_id": 58,
-      "book_date": "11-12-2021",
+      "vehicle_id": 49,
+      "address_id": 13,
+      "book_date": "17-12-2021",
       "book_time": "01:00 PM - 02:00 PM"
     }
 parameters: []

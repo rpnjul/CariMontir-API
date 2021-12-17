@@ -1,7 +1,7 @@
 _id: req_276ff5c5c2a540788c4f29bc90eb7010
 type: Request
 parentId: fld_e60699f6b0c849168eba68b5975618a8
-modified: 1639109866525
+modified: 1639542460229
 created: 1634805897996
 url: https://api.carimontir.com/carts/edit
 name: POST Cart Edit
@@ -48,14 +48,14 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"cart_id" : 481,
-    	"type" 		: "plus",
+    	"cart_id" : 898,
+    	"type" 		: "min",
     	"is" 			: "product"
     }
 parameters: []
 headers:
   - name: rapdig-signature
-    value: ""
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
     description: ""
     id: pair_527ddb37e665467491afb2b0eeef290b
     disabled: false
@@ -64,7 +64,7 @@ headers:
     id: pair_4bc0d3a83a94477391cae421e7ab7471
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzUxNTAwMDgsIm5iZiI6MTYzNTE1MDAwOCwianRpIjoiaVBXV3M1ZDFqajg1Y2tKVyIsInN1YiI6MjE1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.f17y4lbtF33WqIqCGPeXvVidtKkvyo5a4t-bFvRfz3o
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzkzNjcxMzMsIm5iZiI6MTYzOTM2NzEzMywianRpIjoid2lJWUVxYUo4UlVvR0FOMCIsInN1YiI6MTcwLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.NVpeoQKwgSyq7iaDkkw-9fdLhejfqwSiETV_WGkB_I4
 metaSortKey: -1634021684676.7188
 isPrivate: false
 settingStoreCookies: true
