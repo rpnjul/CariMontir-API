@@ -1,0 +1,27 @@
+_id: req_4e5ade108672479f98730c6fc0f589ae
+type: Request
+parentId: fld_4ae4872f2ce5476ba502ea67511fbe4e
+modified: 1640231459723
+created: 1640231388419
+url: https://api.carimontir.com/bengkel/users/logout
+name: Logout
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_ed4bfcf34eb54e4ca2ba89ad69c2a19b
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC9iZW5na2VsXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2NDAyMjc5NzQsIm5iZiI6MTY0MDIyNzk3NCwianRpIjoiSlM1UGpyd3h6ZzlYaFVyQyIsInN1YiI6ODIsInBydiI6ImIzNjhmYzBiNWEwYmU5ODFiMWQ5MGIxMDQ5NThlODY2YmRmNjBkNWIifQ.m1zc7li1gSDsIDqftchUqV6wkQ6xWYxeGs8HYqzB_4A
+metaSortKey: -1639539187279
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

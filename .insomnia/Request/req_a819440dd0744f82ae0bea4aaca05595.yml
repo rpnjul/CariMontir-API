@@ -1,0 +1,27 @@
+_id: req_a819440dd0744f82ae0bea4aaca05595
+type: Request
+parentId: fld_4ae4872f2ce5476ba502ea67511fbe4e
+modified: 1640241495610
+created: 1640228009958
+url: https://api.carimontir.com/bengkel/me
+name: GET me
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_ed4bfcf34eb54e4ca2ba89ad69c2a19b
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC9iZW5na2VsXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2NDAyMzE0NzEsIm5iZiI6MTY0MDIzMTQ3MSwianRpIjoiZThUUGY1Q1RIM1h3b3lzNCIsInN1YiI6ODIsInBydiI6ImIzNjhmYzBiNWEwYmU5ODFiMWQ5MGIxMDQ5NThlODY2YmRmNjBkNWIifQ.CFXWZiv1wA28Vn7w8BNK55UZzHUxd0vO4VDPRehTUYA
+metaSortKey: -1639539187304
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

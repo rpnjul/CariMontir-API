@@ -1,7 +1,7 @@
 _id: req_650ebbd988fe4988960fdebf19cabd19
 type: Request
 parentId: fld_90363d9fbb11456681d252be663d87bc
-modified: 1639647035653
+modified: 1640058356011
 created: 1636621292801
 url: https://api.carimontir.com/user/vehicle/
 name: GET Vehicle
@@ -18,7 +18,7 @@ headers:
     id: pair_fbc60212ce454c0fbc4fda5ad1a1ad5b
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzkzNjcxMzMsIm5iZiI6MTYzOTM2NzEzMywianRpIjoid2lJWUVxYUo4UlVvR0FOMCIsInN1YiI6MTcwLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.NVpeoQKwgSyq7iaDkkw-9fdLhejfqwSiETV_WGkB_I4
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2NDAwNTgwMTksIm5iZiI6MTY0MDA1ODAxOSwianRpIjoiRzJ6VFNFbG1oZmFrNUxNWSIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.naLNR1svY4OywI4D8kwfirtdDvEYkn3l6bule2R8HRc
 metaSortKey: -1634454332556
 isPrivate: false
 settingStoreCookies: true

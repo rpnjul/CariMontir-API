@@ -1,0 +1,10 @@
+_id: fld_59b11425763b413899c0f31c51df56fd
+type: RequestGroup
+parentId: wrk_969250fe8d524cd5b200812068b6e03d
+modified: 1640056995661
+created: 1640056986010
+name: EXTERNAL API
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1633585041328

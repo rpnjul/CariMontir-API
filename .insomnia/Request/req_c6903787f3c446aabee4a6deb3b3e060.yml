@@ -1,15 +1,19 @@
 _id: req_c6903787f3c446aabee4a6deb3b3e060
 type: Request
 parentId: fld_9b575d28db6f4ec9a765fb04797648f2
-modified: 1638169434978
+modified: 1640058088548
 created: 1638169434978
-url: ""
+url: https://api.carimontir.com/products
 name: GET All
 description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_20093ec7d7ba4d88982bd1b65521ccef
 authentication: {}
 metaSortKey: -1638169434978
 isPrivate: false

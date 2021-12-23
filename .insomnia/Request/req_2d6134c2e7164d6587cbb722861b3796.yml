@@ -1,0 +1,36 @@
+_id: req_2d6134c2e7164d6587cbb722861b3796
+type: Request
+parentId: fld_59b11425763b413899c0f31c51df56fd
+modified: 1640057132807
+created: 1640057011156
+url: https://api.carimontir.com/external-api/bantubeli
+name: BantuBeli
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id" : 11,
+    	"status" : "active",
+    	"type" : "ptype",
+    	"amount" : 1000123
+    }
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_b560f12f65ff47b1a6b4b31f129a7fc4
+  - name: Content-Type
+    value: application/json
+    id: pair_ef292733a1644cc08904ad31b2cb1e41
+authentication: {}
+metaSortKey: -1640057011156
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

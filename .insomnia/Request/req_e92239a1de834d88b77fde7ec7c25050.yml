@@ -1,0 +1,44 @@
+_id: req_e92239a1de834d88b77fde7ec7c25050
+type: Request
+parentId: fld_31d1d4747d104a3289420c76a797f922
+modified: 1640256967811
+created: 1640242416634
+url: https://api.carimontir.com/bengkel/products/inactive
+name: Inactive Products
+description: |-2
+      required header "rapdig-signature"
+
+
+  Required Query Parameter :
+
+        {
+          'order'         => 'nullable|in:1,2,3,4|bail',
+        }
+        
+        Param "order" Just In 1 OR 2 OR 3 OR 4 With Condition {
+            1. Harga rendah ke tinggi
+            2. Harga tinggi ke rendah
+            3. Paling laris
+            4. Terbaru
+
+            Default (Terbaru) 
+        }
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_1c16ed003a6e4b22aedcb69202518683
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC9iZW5na2VsXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2NDAyMzE0NzEsIm5iZiI6MTY0MDIzMTQ3MSwianRpIjoiZThUUGY1Q1RIM1h3b3lzNCIsInN1YiI6ODIsInBydiI6ImIzNjhmYzBiNWEwYmU5ODFiMWQ5MGIxMDQ5NThlODY2YmRmNjBkNWIifQ.CFXWZiv1wA28Vn7w8BNK55UZzHUxd0vO4VDPRehTUYA
+metaSortKey: -1640219961574.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

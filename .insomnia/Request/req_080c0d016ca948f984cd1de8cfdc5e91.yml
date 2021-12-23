@@ -1,7 +1,7 @@
 _id: req_080c0d016ca948f984cd1de8cfdc5e91
 type: Request
 parentId: fld_a3433cc62fdc4941bb4dc47d78df7c0c
-modified: 1639368973653
+modified: 1640058453356
 created: 1635760649681
 url: https://api.carimontir.com/checkout/check
 name: GET Checkout Validate
@@ -17,7 +17,7 @@ parameters:
     id: pair_0cccde814b8e49aebd2790d13a34a0bb
     disabled: true
   - name: cart_product
-    value: 878,881
+    value: "914"
     description: ""
     id: pair_bac064b23e0b42f79b894cacf26de76a
     disabled: false
@@ -26,7 +26,7 @@ parameters:
     description: ""
     id: pair_1471b675100a45f599cddc2de26c3d32
   - name: vehicle_id
-    value: "49"
+    value: "1"
     description: ""
     id: pair_3690fd7962a741b3afa43d68e656716e
   - name: home
@@ -35,7 +35,7 @@ parameters:
     id: pair_c446cde8f86e42ebbe8378c1e78bdb84
     disabled: false
   - name: address_id
-    value: "76"
+    value: "17"
     description: ""
     id: pair_0aaddf36a8e24b63a9f4945b076da19b
   - name: ""
@@ -50,7 +50,7 @@ headers:
     disabled: false
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzkzNjcxMzMsIm5iZiI6MTYzOTM2NzEzMywianRpIjoid2lJWUVxYUo4UlVvR0FOMCIsInN1YiI6MTcwLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.NVpeoQKwgSyq7iaDkkw-9fdLhejfqwSiETV_WGkB_I4
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2NDAwNTgwMTksIm5iZiI6MTY0MDA1ODAxOSwianRpIjoiRzJ6VFNFbG1oZmFrNUxNWSIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.naLNR1svY4OywI4D8kwfirtdDvEYkn3l6bule2R8HRc
 metaSortKey: -1634021668812.5
 isPrivate: false
 settingStoreCookies: true

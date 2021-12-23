@@ -1,7 +1,7 @@
 _id: req_e3279fea1fe24dccbe13e4df65c77cc0
 type: Request
 parentId: fld_d60e10d13962496d8cd5034cfab883be
-modified: 1639647058360
+modified: 1640058374707
 created: 1636617550836
 url: https://api.carimontir.com/user/address
 name: GET Address
@@ -18,7 +18,7 @@ headers:
     id: pair_14e60a0e73a6413d9157654f6aff4b21
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2MzkzNjcxMzMsIm5iZiI6MTYzOTM2NzEzMywianRpIjoid2lJWUVxYUo4UlVvR0FOMCIsInN1YiI6MTcwLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.NVpeoQKwgSyq7iaDkkw-9fdLhejfqwSiETV_WGkB_I4
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2NDAwNTgwMTksIm5iZiI6MTY0MDA1ODAxOSwianRpIjoiRzJ6VFNFbG1oZmFrNUxNWSIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.naLNR1svY4OywI4D8kwfirtdDvEYkn3l6bule2R8HRc
 metaSortKey: -1636617550836
 isPrivate: false
 settingStoreCookies: true

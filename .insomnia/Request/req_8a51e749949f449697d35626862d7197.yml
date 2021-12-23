@@ -1,7 +1,7 @@
 _id: req_8a51e749949f449697d35626862d7197
 type: Request
 parentId: fld_50e31e8f757349de968a8efce38a2f4b
-modified: 1639377436910
+modified: 1640158754441
 created: 1637309519406
 url: https://api.carimontir.com/user/review/add
 name: POST Reviews
@@ -25,11 +25,11 @@ body:
   mimeType: multipart/form-data
   params:
     - name: order_id
-      value: "17"
+      value: "157"
       description: ""
       id: pair_a218a55effb4434a8b32e27974898674
     - name: product_id
-      value: "27"
+      value: "2"
       description: ""
       id: pair_8e2d962297e241708c6b448135a76e58
     - name: rate
