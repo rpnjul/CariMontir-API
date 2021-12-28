@@ -1,9 +1,9 @@
 _id: req_4351068f0ebc423f86f0fab97b9663da
 type: Request
 parentId: fld_475d5a7cdfe249fe89d8ebc139b318b1
-modified: 1637640660014
+modified: 1640666556380
 created: 1637637024817
-url: https://api.carimontir.com/providers/82/services
+url: https://api.carimontir.com/providers/78/services
 name: GET Services
 description: '    required header "rapdig-signature"'
 method: GET

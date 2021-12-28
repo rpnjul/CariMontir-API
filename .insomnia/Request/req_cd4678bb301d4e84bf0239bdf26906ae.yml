@@ -1,0 +1,70 @@
+_id: req_cd4678bb301d4e84bf0239bdf26906ae
+type: Request
+parentId: fld_2ffd9404386548fd8be51e9bacf92f00
+modified: 1640687938848
+created: 1640686375537
+url: https://api.carimontir.com/bengkel/settings/account/edit
+name: Update account
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: dob
+      value: 18-04-2021
+      description: ""
+      id: pair_4bfae9276bcd47dda476485111f8f012
+    - name: category
+      value: "21"
+      description: ""
+      id: pair_1209b1c7ada54fad99a9c27328500548
+    - name: subcategory
+      value: "2"
+      description: ""
+      id: pair_b0063ce7273140f5a2485e5b020ee7c3
+    - name: country
+      value: "102"
+      description: ""
+      id: pair_572fb1733ecd426f86dc4ec1189bc241
+    - name: province
+      value: "1673"
+      description: ""
+      id: pair_a1b7fb5e5fe5458f974420794e4a8c2e
+    - name: city
+      value: "47578"
+      description: ""
+      id: pair_2d90798118364d619170a466b6e8040d
+    - name: postal
+      value: "17145"
+      description: ""
+      id: pair_65cf17bfc5b849198946582eab85ae81
+    - name: address
+      value: Jalan Patriot Kelapa dua
+      description: ""
+      id: pair_62c3bfd0590244ce99a3f061918133bb
+    - name: photo
+      value: ""
+      description: ""
+      id: pair_c9b69733cd7f4518b0d9586bd6d7f92f
+      type: file
+      fileName: C:\Users\rekapdigi\Pictures\logo\Pil Logo Bantu Beli-06.png
+parameters: []
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_2c721ef7e3bf406999b97fb1c2c1b6f6
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_0c6c398754374b6e9d2a2ef65023f5f9
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC9iZW5na2VsXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2NDAyMzE0NzEsIm5iZiI6MTY0MDIzMTQ3MSwianRpIjoiZThUUGY1Q1RIM1h3b3lzNCIsInN1YiI6ODIsInBydiI6ImIzNjhmYzBiNWEwYmU5ODFiMWQ5MGIxMDQ5NThlODY2YmRmNjBkNWIifQ.CFXWZiv1wA28Vn7w8BNK55UZzHUxd0vO4VDPRehTUYA
+metaSortKey: -1640686375537
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

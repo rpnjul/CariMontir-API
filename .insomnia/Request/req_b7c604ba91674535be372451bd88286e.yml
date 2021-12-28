@@ -1,0 +1,82 @@
+_id: req_b7c604ba91674535be372451bd88286e
+type: Request
+parentId: fld_097d654387f846839fb67b81a2e74e8b
+modified: 1640659652783
+created: 1640579574461
+url: https://api.carimontir.com/bengkel/transactions
+name: GET Transactions
+description: >-2
+      required header "rapdig-signature"
+
+
+  Required Query Parameter :
+
+        {
+          'q'                 => 'nullable',
+          'status'            => 'nullable',
+          'start_date'        => 'nullable',
+          'end_date'          => 'nullable',
+          'order'             => 'nullable'
+        }
+        
+   q => Cari nama produk, nama service, nama pemesan
+   
+    status  :  
+
+                 1 . Status transaksi pending ( belum dibayar )
+                 2 . Status transaksi pembayaran di terima ( Menunggu di proses )
+                 3 . Status transaksi di proses  ( Menunggu di kirim )
+                 4 . Statuas transaksi sedang di kirim ( Produk di kirim atau montir sedang menuju lokasi )
+                 5 . Status transaksi produk telah dikirim atau service selesai dilakukan
+                 6 . Statut transaksi Selesai
+                 7 . Status transaksi dibatalkan
+                 8 . Status transaksi sedang di pengembalian . 
+                 9 . Status produk yang sedang di kirim . 
+                 10 . Status produk telah tiba . 
+                 11 . Status produk pengembalian . 
+                 12 . Status produk di batalkan
+                 13 . Status service sedang dikerjakan
+                 14 . Status service selesai dikerjakan 
+                 15 . Status service dibatalkan .
+
+                 
+  Start date => "Tanggal awal, format 'd-m-Y (ex : 18-04-2021)' "
+
+
+  End date => "Tanggal akhir (harus lebih besar dari tanggal awal), format 'd-m-Y (ex : 18-10-2021)' "
+
+
+  Order => ""
+method: GET
+body: {}
+parameters:
+  - name: start_date
+    value: 23-12-2021
+    description: ""
+    id: pair_67bf3a9a94544ebe81199d8faa3d7e11
+    disabled: true
+  - name: end_date
+    value: 25-12-2021
+    description: ""
+    id: pair_a0223738630344e3a5b78a264185cfcd
+    disabled: true
+  - name: q
+    value: Data dummy
+    description: ""
+    id: pair_7ac7ff91bc8f48b6a04fd2762cc256b2
+headers:
+  - name: rapdig-signature
+    value: $2y$10$npqCe2Zq3Ig0inU38fzzFuDWfud.ranei2lSOlGPECMmGy1.9qwEK
+    description: ""
+    id: pair_ed4bfcf34eb54e4ca2ba89ad69c2a19b
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmNhcmltb250aXIuY29tXC9iZW5na2VsXC91c2Vyc1wvbG9naW4iLCJpYXQiOjE2NDAyMzE0NzEsIm5iZiI6MTY0MDIzMTQ3MSwianRpIjoiZThUUGY1Q1RIM1h3b3lzNCIsInN1YiI6ODIsInBydiI6ImIzNjhmYzBiNWEwYmU5ODFiMWQ5MGIxMDQ5NThlODY2YmRmNjBkNWIifQ.CFXWZiv1wA28Vn7w8BNK55UZzHUxd0vO4VDPRehTUYA
+metaSortKey: -1639848520247
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
