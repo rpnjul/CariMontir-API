@@ -1,7 +1,7 @@
 _id: req_b7c604ba91674535be372451bd88286e
 type: Request
 parentId: fld_097d654387f846839fb67b81a2e74e8b
-modified: 1640659652783
+modified: 1640749846200
 created: 1640579574461
 url: https://api.carimontir.com/bengkel/transactions
 name: GET Transactions
@@ -54,12 +54,12 @@ parameters:
     value: 23-12-2021
     description: ""
     id: pair_67bf3a9a94544ebe81199d8faa3d7e11
-    disabled: true
+    disabled: false
   - name: end_date
     value: 25-12-2021
     description: ""
     id: pair_a0223738630344e3a5b78a264185cfcd
-    disabled: true
+    disabled: false
   - name: q
     value: Data dummy
     description: ""
